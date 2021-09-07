@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="PlantBase">
+    <defName>WindDaisy</defName>
+    <label>wind daisy</label>
+    <description>A magical, beautiful flower from long forgotten worlds. Sowing and harvesting wind daisy are both very labor-intensive tasks because of its delicate shoots. Her bloom turned into dust is used for brewing different potions.</description>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Building/WindDaisyPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>10</pathCost>
+    <ingestible />
+    <plant>
+      <growDays>6</growDays>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>WindDaisyBloom</harvestedThingDef>
+      <harvestYield>10</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <sowMinSkill>6</sowMinSkill>
+      <sowResearchPrerequisites>
+        <li>PSimpleBrewing</li>
+      </sowResearchPrerequisites>
+      <topWindExposure>0.1</topWindExposure>
+      <visualSizeRange>0.3~1.05</visualSizeRange>
+      <wildOrder>2</wildOrder>
+    </plant>
+  </ThingDef>
+</Defs>

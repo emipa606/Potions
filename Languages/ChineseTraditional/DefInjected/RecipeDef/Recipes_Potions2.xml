@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Pain -->
+  <BrewingPain.label>釀造藥水（減輕傷痛）</BrewingPain.label>
+  <BrewingPain.description>釀造藥水（減輕傷痛）。</BrewingPain.description>
+  <BrewingPain.jobString>釀造中。</BrewingPain.jobString>
+  <!-- Consciousness -->
+  <BrewingConsciousness.label>釀造藥水（增強意識）</BrewingConsciousness.label>
+  <BrewingConsciousness.description>釀造藥水（增強意識）。</BrewingConsciousness.description>
+  <BrewingConsciousness.jobString>釀造中。</BrewingConsciousness.jobString>
+  <!-- Sight -->
+  <BrewingSight.label>釀造藥水（提升視野）</BrewingSight.label>
+  <BrewingSight.description>釀造藥水（提升視野）。</BrewingSight.description>
+  <BrewingSight.jobString>釀造中。</BrewingSight.jobString>
+  <!-- Moving -->
+  <BrewingMoving.label>釀造藥水（提升移動）</BrewingMoving.label>
+  <BrewingMoving.description>釀造藥水（提升移動）。</BrewingMoving.description>
+  <BrewingMoving.jobString>釀造中。</BrewingMoving.jobString>
+  <!-- Metabolism -->
+  <BrewingMetabolism.label>釀造藥水（增強代謝）</BrewingMetabolism.label>
+  <BrewingMetabolism.description>釀造藥水（增強代謝）。</BrewingMetabolism.description>
+  <BrewingMetabolism.jobString>釀造中。</BrewingMetabolism.jobString>
+  <!-- Breathing -->
+  <BrewingBreathing.label>釀造釀造藥水（增強呼吸）</BrewingBreathing.label>
+  <BrewingBreathing.description>釀造釀造藥水（增強呼吸）。</BrewingBreathing.description>
+  <BrewingBreathing.jobString>釀造中。</BrewingBreathing.jobString>
+  <!-- BloodFiltration -->
+  <BrewingBloodFiltration.label>藥水（增強血液過濾）</BrewingBloodFiltration.label>
+  <BrewingBloodFiltration.description>藥水（增強血液過濾）。</BrewingBloodFiltration.description>
+  <BrewingBloodFiltration.jobString>釀造中。</BrewingBloodFiltration.jobString>
+  <!-- BloodPumping -->
+  <BrewingBloodPumping.label>釀造藥水（增強血液循環）</BrewingBloodPumping.label>
+  <BrewingBloodPumping.description>釀造藥水（增強血液循環）。</BrewingBloodPumping.description>
+  <BrewingBloodPumping.jobString>釀造中。</BrewingBloodPumping.jobString>
+  <!-- Rest -->
+  <BrewingRest.label>釀造藥水（減慢疲倦速率）</BrewingRest.label>
+  <BrewingRest.description>釀造藥水（減慢疲倦速率）。</BrewingRest.description>
+  <BrewingRest.jobString>釀造中。</BrewingRest.jobString>
+  <!-- Manipulation -->
+  <BrewingManipulation.label>釀造藥水（提升操作）</BrewingManipulation.label>
+  <BrewingManipulation.description>釀造藥水（提升操作）。</BrewingManipulation.description>
+  <BrewingManipulation.jobString>釀造中。</BrewingManipulation.jobString>
+  <!-- Hunger -->
+  <BrewingHunger.label>釀造藥水（增加飢餓感）</BrewingHunger.label>
+  <BrewingHunger.description>釀造藥水（增加飢餓感）。</BrewingHunger.description>
+  <BrewingHunger.jobString>釀造中。</BrewingHunger.jobString>
+</LanguageData>

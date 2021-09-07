@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef ParentName="PotionJobString" Name="PotionJobString3" Abstract="True">
+    <jobString>Brewing.</jobString>
+    <workAmount>3200</workAmount>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <workSkill>Intellectual</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WindDaisyDust</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>GoldDust</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PGlassBottle</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <skillRequirements>
+      <Cooking>8</Cooking>
+    </skillRequirements>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WindDaisyDust</li>
+        <li>PlasteelDust</li>
+        <li>UraniumDust</li>
+        <li>GoldDust</li>
+        <li>JadeDust</li>
+        <li>PGlassBottle</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <researchPrerequisite>PMentalBreak</researchPrerequisite>
+    <recipeUsers>
+      <li>PCauldron</li>
+    </recipeUsers>
+  </RecipeDef>
+  <!--==Sad Wander==-->
+  <RecipeDef ParentName="PotionJobString3">
+    <defName>BrewingSadWander</defName>
+    <label>brew Sad wander potion</label>
+    <description>Brew Sad wander potion.</description>
+    <products>
+      <PPotionSadWander>1</PPotionSadWander>
+    </products>
+  </RecipeDef>
+  <!--==Insulting Spree==-->
+  <RecipeDef ParentName="PotionJobString3">
+    <defName>BrewingInsultingSpree</defName>
+    <label>brew Insulting spree potion</label>
+    <description>Brew Insulting spree potion.</description>
+    <products>
+      <PPotionInsultingSpree>1</PPotionInsultingSpree>
+    </products>
+  </RecipeDef>
+  <!--==Fire Starting Spree==-->
+  <RecipeDef ParentName="PotionJobString3">
+    <defName>BrewingFireStartingSpree</defName>
+    <label>brew Fire starting spree potion</label>
+    <description>Brew Fire starting spree potion.</description>
+    <products>
+      <PPotionFireStartingSpree>1</PPotionFireStartingSpree>
+    </products>
+  </RecipeDef>
+  <!--==Berserk==-->
+  <RecipeDef ParentName="PotionJobString3">
+    <defName>BrewingBerserk</defName>
+    <label>brew Berserk potion</label>
+    <description>Brew Berserk potion.</description>
+    <products>
+      <PPotionBerserk>1</PPotionBerserk>
+    </products>
+  </RecipeDef>
+  <!--==Catatonia==-->
+  <RecipeDef ParentName="PotionJobString3">
+    <defName>BrewingCatatonia</defName>
+    <label>brew Catatonia potion</label>
+    <description>Brew Catatonia potion.</description>
+    <products>
+      <PPotionCatatonia>1</PPotionCatatonia>
+    </products>
+  </RecipeDef>
+</Defs>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PlasteelDust.label>塑鋼粉塵</PlasteelDust.label>
+  <PlasteelDust.description>先進的太空科技材料被帶進了中世紀。塑鋼粉塵是釀造藥水的原料之一，屬性非強烈。</PlasteelDust.description>
+  <GoldDust.label>黃金粉塵</GoldDust.label>
+  <GoldDust.description>最誘惑人心的金属。黃金粉塵是釀造藥水的原料之一，屬性非強烈。</GoldDust.description>
+  <JadeDust.label>翡翠粉塵</JadeDust.label>
+  <JadeDust.description>漂亮的翆綠色粉塵。翡翠粉塵是釀造藥水的原料之一，屬性非強烈。</JadeDust.description>
+  <UraniumDust.label>鈾粉塵</UraniumDust.label>
+  <UraniumDust.description>一種暗色粉塵，是用於釀造藥水的原料，屬性非強烈。</UraniumDust.description>
+  <WindDaisyBloom.label>纏風菊</WindDaisyBloom.label>
+  <WindDaisyBloom.description>一種美麗且神奇的植物，來遠古世界中法師們使用。</WindDaisyBloom.description>
+  <WindDaisyDust.label>纏風菊粉塵</WindDaisyDust.label>
+  <WindDaisyDust.description>釀造藥水的材料之一。</WindDaisyDust.description>
+  <PGlassBottle.label>玻璃瓶</PGlassBottle.label>
+  <PGlassBottle.description>一個簡單的玻璃瓶，用於裝載藥水。</PGlassBottle.description>
+  <PThrumboBone.label>獨角獸骨頭</PThrumboBone.label>
+  <PThrumboBone.description>用於釀造藥水，來自獨角獸的粗大骨頭。</PThrumboBone.description>
+</LanguageData>

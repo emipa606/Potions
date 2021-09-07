@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <EffecterDef>
+    <defName>DrinkPotion</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
+        <scale>0.5~0.7</scale>
+        <ticksBetweenMotes>20</ticksBetweenMotes>
+        <positionLerpFactor>0.35</positionLerpFactor>
+        <moteDef>Mote_FoodBitBubble</moteDef>
+      </li>
+    </children>
+  </EffecterDef>
+  <ThingDef ParentName="FoodBitBase">
+    <defName>Mote_FoodBitBubble</defName>
+    <graphicData>
+      <texPath>Things/Item/FoodBitBubble</texPath>
+      <shaderType>Mote</shaderType>
+    </graphicData>
+  </ThingDef>
+</Defs>

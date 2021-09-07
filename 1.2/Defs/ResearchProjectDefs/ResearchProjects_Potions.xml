@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>PSimpleBrewing</defName>
+    <label>Simple brewing</label>
+    <description>Build a cauldron and prepare the ingredients for the potions at the drug lab and make bottles at the smithy. Brew the Potion of saturation.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>Brewing</li>
+    </prerequisites>
+    <tab>Potions</tab>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>PImmunization</defName>
+    <label>Potion of immunization</label>
+    <description>Brew the Potion of immunization.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>PSimpleBrewing</li>
+    </prerequisites>
+    <tab>Potions</tab>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>PStatBoost</defName>
+    <label>Potion of stats</label>
+    <description>Brew the Potion of stats.</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>PSimpleBrewing</li>
+    </prerequisites>
+    <tab>Potions</tab>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0.75</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>PSkills</defName>
+    <label>Potion of skills</label>
+    <description>Brew the Potion of skills.</description>
+    <baseCost>3000</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>PSimpleBrewing</li>
+    </prerequisites>
+    <tab>Potions</tab>
+    <researchViewX>1</researchViewX>
+    <researchViewY>1.5</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>PKnowledge</defName>
+    <label>Potion of knowledge</label>
+    <description>Brew the Potion of knowledge.</description>
+    <baseCost>15000</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>PLife</li>
+    </prerequisites>
+    <tab>Potions</tab>
+    <researchViewX>4</researchViewX>
+    <researchViewY>1.5</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>PDrug</defName>
+    <label>Drug potion</label>
+    <description>Brew a Drug potion.</description>
+    <baseCost>700</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>PSimpleBrewing</li>
+    </prerequisites>
+    <tab>Potions</tab>
+    <researchViewX>1</researchViewX>
+    <researchViewY>2.25</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>PMentalBreak</defName>
+    <label>Mental break potion</label>
+    <description>Brew a Mental break potion.</description>
+    <baseCost>900</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>PSimpleBrewing</li>
+    </prerequisites>
+    <tab>Potions</tab>
+    <researchViewX>1</researchViewX>
+    <researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>PAntiradiation</defName>
+    <label>Antiradiation potion</label>
+    <description>Brew a Antiradiation potion.</description>
+    <baseCost>1200</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>PSimpleBrewing</li>
+    </prerequisites>
+    <tab>Potions</tab>
+    <researchViewX>1</researchViewX>
+    <researchViewY>3.75</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>PLuciferium</defName>
+    <label>Luciferium potion</label>
+    <description>Brew the Luziferium potion.</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>PDrug</li>
+    </prerequisites>
+    <tab>Potions</tab>
+    <researchViewX>2</researchViewX>
+    <researchViewY>2.25</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>PHealer</defName>
+    <label>Healing potion</label>
+    <description>Brew the Healing potion. Extract the bone from a thrumbo at the butcher table.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>PStatBoost</li>
+      <li>PSkills</li>
+      <li>PDrug</li>
+      <li>PImmunization</li>
+    </prerequisites>
+    <tab>Potions</tab>
+    <researchViewX>2</researchViewX>
+    <researchViewY>1.5</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>PLife</defName>
+    <label>Potion of life</label>
+    <description>Brew the Potion of life.</description>
+    <baseCost>5000</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>PHealer</li>
+    </prerequisites>
+    <tab>Potions</tab>
+    <researchViewX>3</researchViewX>
+    <researchViewY>1.5</researchViewY>
+  </ResearchProjectDef>
+</Defs>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PSimpleBrewing.label>P：基础酿造药水知识</PSimpleBrewing.label>
+  <PSimpleBrewing.description>建造一个锅釜，准备药水所需要的材料，在锻造台上生产玻璃瓶，尝试酿造饱腹药水。</PSimpleBrewing.description>
+  <PStatBoost.label>P：机能药水</PStatBoost.label>
+  <PStatBoost.description>解锁各种机能药水配方。</PStatBoost.description>
+  <PSkills.label>P：技能药水</PSkills.label>
+  <PSkills.description>解锁各种机能药水配方。</PSkills.description>
+  <PKnowledge.label>P：知识药水</PKnowledge.label>
+  <PKnowledge.description>解锁知识药水配方。</PKnowledge.description>
+  <PDrug.label>P：成瘾药水</PDrug.label>
+  <PDrug.description>解锁各种具有成瘾性的药水配方。</PDrug.description>
+  <PLuciferium.label>P：路西法药水</PLuciferium.label>
+  <PLuciferium.description>解锁各种机能药水配方。</PLuciferium.description>
+  <PHealer.label>P：治疗药水</PHealer.label>
+  <PHealer.description>解锁治疗药水配方。允许从屠宰桌抽取敲击兽的骨头。</PHealer.description>
+  <PLife.label>P：生命药水</PLife.label>
+  <PLife.description>解锁生命药水配方。</PLife.description>
+</LanguageData>

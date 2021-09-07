@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PCauldron.label>鍋釜</PCauldron.label>
+  <PCauldron.description>用於釀製不同藥水的金屬大鍋。</PCauldron.description>
+  <PCauldron_Blueprint.label>鍋釜 (藍圖)</PCauldron_Blueprint.label>
+  <PCauldron_Blueprint_Install.label>鍋釜 (藍圖)</PCauldron_Blueprint_Install.label>
+  <PCauldron_Frame.label>鍋釜 (建造中)</PCauldron_Frame.label>
+  <PCauldron_Frame.description>用於釀製不同藥水的金屬大鍋。</PCauldron_Frame.description>
+</LanguageData>

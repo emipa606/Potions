@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Mech serum -->
+  <PPotionSkills.label>技能藥水</PPotionSkills.label>
+  <PPotionSkills.description>一種訓練特殊技能的藥水。</PPotionSkills.description>
+  <PPotionSkills.comps.1.useLabel>使用技能藥水學習{0}</PPotionSkills.comps.1.useLabel>
+  <PPotionHealer.label>治療藥水</PPotionHealer.label>
+  <PPotionHealer.description>能夠恢復健康的藥水。即使病情相當嚴重，它都能及時扭轉情況，甚至在絕症面前也能生效，還可以視乎情況需要組成新的肢體或器官。</PPotionHealer.description>
+  <PPotionHealer.comps.1.useLabel>使用治療藥水</PPotionHealer.comps.1.useLabel>
+  <PPotionLife.label>生命藥水</PPotionLife.label>
+  <PPotionLife.description>一種能令死者甦生的藥水。不幸的是，死者復活時可能會伴隨腦損傷、失明或漸進性出現精神病。\n\n提示：這"藥水"注入新鮮的軀體效果會更好。如果一具屍體被妥善保存下來，即使死亡多時，也是能夠復活過來的。</PPotionLife.description>
+  <PPotionLife.comps.1.useLabel>使用生命藥水</PPotionLife.comps.1.useLabel>
+  <!-- Technology helper persona -->
+  <PPotionKnowledge.label>知識藥水</PPotionKnowledge.label>
+  <PPotionKnowledge.description>一劑神奇的藥水。使用這種藥劑後，你將會馬上學會目前正在研究的技術。</PPotionKnowledge.description>
+  <PPotionKnowledge.comps.1.useLabel>使用知識藥水</PPotionKnowledge.comps.1.useLabel>
+  <!-- Luciferium -->
+  <PPotionLuciferium.label>路西法強化藥水</PPotionLuciferium.label>
+  <PPotionLuciferium.description>一種能顯著改善身體各方面機能的藥劑。隨著時間的推移，它甚至可以治愈舊傷或腦損傷，儘管它不能讓失去的肢體再生。但不幸的是，如果沒有每隔五六天定期服用一次該藥水，這種藥水就會失去凝聚力，會令身體主人持續地陷入瘋狂，最終導致死亡。請記住，在第一次注射之後，就再也沒有辦法逃離命運。</PPotionLuciferium.description>
+  <PPotionLuciferium.ingestible.ingestCommandString>飲用{0}</PPotionLuciferium.ingestible.ingestCommandString>
+  <PPotionLuciferium.ingestible.ingestReportString>正在飲用{0}。</PPotionLuciferium.ingestible.ingestReportString>
+  <!-- Saturation -->
+  <PPotionSaturation.label>飽腹藥水</PPotionSaturation.label>
+  <PPotionSaturation.description>為生存而設的飽腹藥水。雖然它永遠不會過期，但如果放在室外，它還是會變質的。非常適合旅行時使用。</PPotionSaturation.description>
+  <!-- Drugs -->
+  <PPotionWakeUp.label>醒腦藥水</PPotionWakeUp.label>
+  <PPotionWakeUp.description>醒腦藥水能夠滿足了用戶對休息的需求，讓用戶長時間工作而不感到疲勞。然而，反覆服用會導致上癮，降低精神狀態，甚至會出現精神崩潰。</PPotionWakeUp.description>
+  <PPotionWakeUp.ingestible.ingestCommandString>飲用{0}</PPotionWakeUp.ingestible.ingestCommandString>
+  <PPotionWakeUp.ingestible.ingestReportString>正在飲用{0}。</PPotionWakeUp.ingestible.ingestReportString>
+  <PPotionGoJuice.label>能量果藥水</PPotionGoJuice.label>
+  <PPotionGoJuice.description>能量果藥水可以舒緩疼痛，提高移動速度，近戰能力和射擊能力。</PPotionGoJuice.description>
+  <PPotionGoJuice.ingestible.ingestCommandString>飲用{0}</PPotionGoJuice.ingestible.ingestCommandString>
+  <PPotionGoJuice.ingestible.ingestReportString>正在飲用{0}。</PPotionGoJuice.ingestible.ingestReportString>
+  <PPotionYayo.label>Y他命藥水</PPotionYayo.label>
+  <PPotionYayo.description>喝下後會迅速產生一種欣快感，並大輻減少使用者對休息的需求和並抑制疼痛。但就如其他迷幻藥一樣，它會讓人上癮，儘管它不像薄片那麼容易上癮。</PPotionYayo.description>
+  <PPotionYayo.ingestible.ingestCommandString>飲用{0}</PPotionYayo.ingestible.ingestCommandString>
+  <PPotionYayo.ingestible.ingestReportString>正在飲用{0}。</PPotionYayo.ingestible.ingestReportString>
+  <PPotionFlake.label>薄片藥水</PPotionFlake.label>
+  <PPotionFlake.description>一種白色薄片液體，喝下後會產生強烈的欣快感。儘管它的生產成本很低，會為使用者帶來極大快樂，但它特別容易上癮。因此薄片也以破壞生命、社區和整個社會而聞名。</PPotionFlake.description>
+  <PPotionFlake.ingestible.ingestCommandString>飲用{0}</PPotionFlake.ingestible.ingestCommandString>
+  <PPotionFlake.ingestible.ingestReportString>正在飲用{0}。</PPotionFlake.ingestible.ingestReportString>
+</LanguageData>

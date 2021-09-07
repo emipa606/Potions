@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BenchBase">
+    <defName>PCauldron</defName>
+    <label>Cauldron</label>
+    <description>A metal cauldron used for brewing different potions.</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Cauldron</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <drawRotated>false</drawRotated>
+      <allowFlip>false</allowFlip>
+      <!--<shadowData>
+        <volume>(0.8, 0.35, 0.59)</volume>
+        <offset>(0, 0, 0.08)</offset>
+      </shadowData>-->
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <costList>
+      <Steel>150</Steel>
+      <WoodLog>20</WoodLog>
+    </costList>
+    <constructEffect>ConstructMetal</constructEffect>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>4500</WorkToBuild>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Cleanliness>-1</Cleanliness>
+    </statBases>
+    <size>(1,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <comps>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>80.0</fuelConsumptionRate>
+        <fuelCapacity>50.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </fuelFilter>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+      </li>
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_Heater</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>PSimpleBrewing</li>
+    </researchPrerequisites>
+  </ThingDef>
+</Defs>

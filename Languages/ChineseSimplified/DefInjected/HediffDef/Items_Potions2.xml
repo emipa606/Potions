@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Pain -->
+  <PainHigh.label>药水（减轻疼痛）</PainHigh.label>
+  <PainHigh.labelNoun>药水（减轻疼痛）</PainHigh.labelNoun>
+  <!-- Consciousness -->
+  <ConsciousnessHigh.label>药水（增强意识）</ConsciousnessHigh.label>
+  <ConsciousnessHigh.labelNoun>药水（增强意识）</ConsciousnessHigh.labelNoun>
+  <!-- Sight -->
+  <SightHigh.label>药水（提升视觉能力）</SightHigh.label>
+  <SightHigh.labelNoun>药水（提升视觉能力）</SightHigh.labelNoun>
+  <!-- Moving -->
+  <MovingHigh.label>药水（提升移动能力）</MovingHigh.label>
+  <MovingHigh.labelNoun>药水（提升移动能力）</MovingHigh.labelNoun>
+  <!-- Metabolism -->
+  <MetabolismHigh.label>药水（增强新陈代谢）</MetabolismHigh.label>
+  <MetabolismHigh.labelNoun>药水（增强新陈代谢）</MetabolismHigh.labelNoun>
+  <!-- Breathing -->
+  <BreathingHigh.label>药水（增强呼吸能力）</BreathingHigh.label>
+  <BreathingHigh.labelNoun>药水（增强呼吸能力）</BreathingHigh.labelNoun>
+  <!-- BloodFiltration -->
+  <BloodFiltrationHigh.label>药水（增强血液过滤）</BloodFiltrationHigh.label>
+  <BloodFiltrationHigh.labelNoun>药水（增强血液过滤）</BloodFiltrationHigh.labelNoun>
+  <!-- BloodPumping -->
+  <BloodPumpingHigh.label>药水（增强血液循环）</BloodPumpingHigh.label>
+  <BloodPumpingHigh.labelNoun>药水（增强血液循环）</BloodPumpingHigh.labelNoun>
+  <!-- Rest -->
+  <RestHigh.label>药水（减慢疲倦速率）</RestHigh.label>
+  <RestHigh.labelNoun>药水（减慢疲倦速率）</RestHigh.labelNoun>
+  <!-- Manipulation -->
+  <ManipulationHigh.label>药水（提升操作能力）</ManipulationHigh.label>
+  <ManipulationHigh.labelNoun>药水（提升操作能力）</ManipulationHigh.labelNoun>
+  <!-- Hunger -->
+  <HungerHigh.label>药水（增加饥饿感）</HungerHigh.label>
+  <HungerHigh.labelNoun>药水（增加饥饿感）</HungerHigh.labelNoun>
+</LanguageData>

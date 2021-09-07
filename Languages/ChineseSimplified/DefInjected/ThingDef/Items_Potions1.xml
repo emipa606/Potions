@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Mech serum -->
+  <PPotionSkills.label>技能药水</PPotionSkills.label>
+  <PPotionSkills.description>一种训练特殊技能的药水。</PPotionSkills.description>
+  <PPotionSkills.comps.1.useLabel>使用技能药水学习{0}</PPotionSkills.comps.1.useLabel>
+  <PPotionHealer.label>治疗药水</PPotionHealer.label>
+  <PPotionHealer.description>能够恢复健康的药水。即使病情相当严重，它都能及时扭转情况，甚至在绝症面前也能生效，还可以视乎情况需要组成新的肢体或器官。</PPotionHealer.description>
+  <PPotionHealer.comps.1.useLabel>使用治疗药水</PPotionHealer.comps.1.useLabel>
+  <PPotionLife.label>生命药水</PPotionLife.label>
+  <PPotionLife.description>一种能令死者苏生的药水。不幸的是，死者复活时可能会伴随脑损伤、失明或渐进性出现精神病。\n\n提示：这"药水"注入新鲜的躯体效果会更好。如果一具尸体被妥善保存下来，即使死亡多时，也是能够复活过来的。</PPotionLife.description>
+  <PPotionLife.comps.1.useLabel>使用生命药水</PPotionLife.comps.1.useLabel>
+  <!-- Technology helper persona -->
+  <PPotionKnowledge.label>知识药水</PPotionKnowledge.label>
+  <PPotionKnowledge.description>一剂神奇的药水。使用这种药剂后，你将会马上学会目前正在研究的技术。</PPotionKnowledge.description>
+  <PPotionKnowledge.comps.1.useLabel>使用知识药水</PPotionKnowledge.comps.1.useLabel>
+  <!-- Luciferium -->
+  <PPotionLuciferium.label>路西法药水</PPotionLuciferium.label>
+  <PPotionLuciferium.description>一种能显着改善身体各方面机能的药剂。随着时间的推移，它甚至可以治愈旧伤或脑损伤，尽管它不能让失去的肢体再生。但不幸的是，如果没有每隔五六天定期服用一次该药水，这种药水就会失去凝聚力，会令身体主人持续地陷入疯狂，最终导致死亡。请记住，在第一次注射之后，就再也没有办法逃离命运。</PPotionLuciferium.description>
+  <PPotionLuciferium.ingestible.ingestCommandString>饮用{0}</PPotionLuciferium.ingestible.ingestCommandString>
+  <PPotionLuciferium.ingestible.ingestReportString>正在饮用{0}。</PPotionLuciferium.ingestible.ingestReportString>
+  <!-- Saturation -->
+  <PPotionSaturation.label>饱腹药水</PPotionSaturation.label>
+  <PPotionSaturation.description>为生存而设的饱腹药水。虽然它永远不会过期，但如果放在室外，它还是会变质的。非常适合旅行时使用。</PPotionSaturation.description>
+  <!-- Drugs -->
+  <PPotionWakeUp.label>清醒药水</PPotionWakeUp.label>
+  <PPotionWakeUp.description>清醒药水能够满足了用户对休息的需求，让用户长时间工作而不感到疲劳。然而，反覆服用会导致上瘾，降低精神状态，甚至会出现精神崩溃。</PPotionWakeUp.description>
+  <PPotionWakeUp.ingestible.ingestCommandString>饮用{0}</PPotionWakeUp.ingestible.ingestCommandString>
+  <PPotionWakeUp.ingestible.ingestReportString>正在饮用{0}。</PPotionWakeUp.ingestible.ingestReportString>
+  <PPotionGoJuice.label>活力药水</PPotionGoJuice.label>
+  <PPotionGoJuice.description>活力药水可以舒缓疼痛，提高移动速度，近战能力和射击能力。</PPotionGoJuice.description>
+  <PPotionGoJuice.ingestible.ingestCommandString>饮用{0}</PPotionGoJuice.ingestible.ingestCommandString>
+  <PPotionGoJuice.ingestible.ingestReportString>正在饮用{0}。</PPotionGoJuice.ingestible.ingestReportString>
+  <PPotionYayo.label>呀呦药水</PPotionYayo.label>
+  <PPotionYayo.description>喝下后会迅速产生一种欣快感，并大辐减少使用者对休息的需求和并抑制疼痛。但就如其他迷幻药一样，它会让人上瘾，尽管它不像薄片那么容易上瘾。</PPotionYayo.description>
+  <PPotionYayo.ingestible.ingestCommandString>饮用{0}</PPotionYayo.ingestible.ingestCommandString>
+  <PPotionYayo.ingestible.ingestReportString>正在饮用{0}。</PPotionYayo.ingestible.ingestReportString>
+  <PPotionFlake.label>薄片药水</PPotionFlake.label>
+  <PPotionFlake.description>一种白色薄片液体，喝下后会产生强烈的欣快感。尽管它的生产成本很低，会为使用者带来极大快乐，但它特别容易上瘾。因此薄片也以破坏生命、社区和整个社会而闻名。</PPotionFlake.description>
+  <PPotionFlake.ingestible.ingestCommandString>饮用{0}</PPotionFlake.ingestible.ingestCommandString>
+  <PPotionFlake.ingestible.ingestReportString>正在饮用{0}。</PPotionFlake.ingestible.ingestReportString>
+</LanguageData>

@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef ParentName="PotionJobString" Name="PotionJobString2" Abstract="True">
+    <jobString>Brewing.</jobString>
+    <workAmount>2500</workAmount>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <workSkill>Intellectual</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WindDaisyDust</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>GoldDust</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PGlassBottle</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <skillRequirements>
+      <Cooking>8</Cooking>
+    </skillRequirements>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WindDaisyDust</li>
+        <li>PlasteelDust</li>
+        <li>UraniumDust</li>
+        <li>GoldDust</li>
+        <li>JadeDust</li>
+        <li>PGlassBottle</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <researchPrerequisite>PStatBoost</researchPrerequisite>
+    <recipeUsers>
+      <li>PCauldron</li>
+    </recipeUsers>
+  </RecipeDef>
+  <!--==Pain==-->
+  <RecipeDef ParentName="PotionJobString2">
+    <defName>BrewingPain</defName>
+    <label>brew Pain potion of stats</label>
+    <description>Brew Pain potion of stats.</description>
+    <products>
+      <PPotionPain>1</PPotionPain>
+    </products>
+  </RecipeDef>
+  <!--==Consciousness==-->
+  <RecipeDef ParentName="PotionJobString2">
+    <defName>BrewingConsciousness</defName>
+    <label>brew Consciousness potion of stats</label>
+    <description>Brew Consciousness potion of stats.</description>
+    <products>
+      <PPotionConsciousness>1</PPotionConsciousness>
+    </products>
+  </RecipeDef>
+  <!--==Sight==-->
+  <RecipeDef ParentName="PotionJobString2">
+    <defName>BrewingSight</defName>
+    <label>brew Sight potion of stats</label>
+    <description>Brew Sight potion of stats.</description>
+    <products>
+      <PPotionSight>1</PPotionSight>
+    </products>
+  </RecipeDef>
+  <!--==Moving==-->
+  <RecipeDef ParentName="PotionJobString2">
+    <defName>BrewingMoving</defName>
+    <label>brew Moving potion of stats</label>
+    <description>Brew Moving potion of stats.</description>
+    <products>
+      <PPotionMoving>1</PPotionMoving>
+    </products>
+  </RecipeDef>
+  <!--==Metabolism==-->
+  <RecipeDef ParentName="PotionJobString2">
+    <defName>BrewingMetabolism</defName>
+    <label>brew Metabolism potion of stats</label>
+    <description>Brew Metabolism potion of stats.</description>
+    <products>
+      <PPotionMetabolism>1</PPotionMetabolism>
+    </products>
+  </RecipeDef>
+  <!--==Breathing==-->
+  <RecipeDef ParentName="PotionJobString2">
+    <defName>BrewingBreathing</defName>
+    <label>brew Breathing potion of stats</label>
+    <description>Brew Breathing potion of stats.</description>
+    <products>
+      <PPotionBreathing>1</PPotionBreathing>
+    </products>
+  </RecipeDef>
+  <!--==BloodFiltration==-->
+  <RecipeDef ParentName="PotionJobString2">
+    <defName>BrewingBloodFiltration</defName>
+    <label>brew Blood filtration potion of stats</label>
+    <description>Brew Blood filtration potion of stats.</description>
+    <products>
+      <PPotionBloodFiltration>1</PPotionBloodFiltration>
+    </products>
+  </RecipeDef>
+  <!--==BloodPumping==-->
+  <RecipeDef ParentName="PotionJobString2">
+    <defName>BrewingBloodPumping</defName>
+    <label>brew Blood pumping potion of stats</label>
+    <description>Brew Blood pumping potion of stats.</description>
+    <products>
+      <PPotionBloodPumping>1</PPotionBloodPumping>
+    </products>
+  </RecipeDef>
+  <!--==Rest==-->
+  <RecipeDef ParentName="PotionJobString2">
+    <defName>BrewingRest</defName>
+    <label>brew Rest potion of stats</label>
+    <description>Brew Rest potion of stats.</description>
+    <products>
+      <PPotionRest>1</PPotionRest>
+    </products>
+  </RecipeDef>
+  <!--==Manipulation==-->
+  <RecipeDef ParentName="PotionJobString2">
+    <defName>BrewingManipulation</defName>
+    <label>brew Manipulation potion of stats</label>
+    <description>Brew Manipulation potion of stats.</description>
+    <products>
+      <PPotionManipulation>1</PPotionManipulation>
+    </products>
+  </RecipeDef>
+  <!--==Hunger==-->
+  <RecipeDef ParentName="PotionJobString2">
+    <defName>BrewingHunger</defName>
+    <label>brew Hunger potion of stats</label>
+    <description>Brew Hunger potion of stats.</description>
+    <products>
+      <PPotionHunger>1</PPotionHunger>
+    </products>
+  </RecipeDef>
+</Defs>

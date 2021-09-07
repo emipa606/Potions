@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PSimpleBrewing.label>P：基礎釀造藥水知識</PSimpleBrewing.label>
+  <PSimpleBrewing.description>建造一個鍋釜，準備藥水所需要的材料，在鍛造台上生產玻璃瓶，嘗試釀造飽腹藥水。</PSimpleBrewing.description>
+  <PStatBoost.label>P：機能藥水</PStatBoost.label>
+  <PStatBoost.description>解鎖各種機能藥水配方。</PStatBoost.description>
+  <PSkills.label>P：技能藥水</PSkills.label>
+  <PSkills.description>解鎖各種機能藥水配方。</PSkills.description>
+  <PKnowledge.label>P：知識藥水</PKnowledge.label>
+  <PKnowledge.description>解鎖知識藥水配方。</PKnowledge.description>
+  <PDrug.label>P：成癮藥水</PDrug.label>
+  <PDrug.description>解鎖各種具有成癮性的藥水配方。</PDrug.description>
+  <PLuciferium.label>P：路西法強化藥水</PLuciferium.label>
+  <PLuciferium.description>解鎖各種機能藥水配方。</PLuciferium.description>
+  <PHealer.label>P：治療藥水</PHealer.label>
+  <PHealer.description>解鎖治療藥水配方。允許從屠宰桌抽取獨角獸的骨頭。</PHealer.description>
+  <PLife.label>P：生命藥水</PLife.label>
+  <PLife.description>解鎖生命藥水配方。</PLife.description>
+</LanguageData>

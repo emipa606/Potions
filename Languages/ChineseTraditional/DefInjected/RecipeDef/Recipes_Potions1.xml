@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Saturation -->
+  <BrewingSaturation.label>釀造飽腹藥水</BrewingSaturation.label>
+  <BrewingSaturation.description>釀造飽腹藥水。</BrewingSaturation.description>
+  <BrewingSaturation.jobString>釀造中。</BrewingSaturation.jobString>
+  <!-- Skills -->
+  <BrewingSkills.label>釀造技能藥水</BrewingSkills.label>
+  <BrewingSkills.description>釀造技能藥水。</BrewingSkills.description>
+  <BrewingSkills.jobString>釀造中。</BrewingSkills.jobString>
+  <!-- Healer -->
+  <BrewingHealer.label>釀造治療藥水</BrewingHealer.label>
+  <BrewingHealer.description>釀造治療藥水。</BrewingHealer.description>
+  <BrewingHealer.jobString>釀造中。</BrewingHealer.jobString>
+  <!-- Life -->
+  <BrewingLife.label>釀造生命藥水</BrewingLife.label>
+  <BrewingLife.description>釀造生命藥水。</BrewingLife.description>
+  <BrewingLife.jobString>釀造中。</BrewingLife.jobString>
+  <!-- Knowledge -->
+  <BrewingKnowledge.label>釀造知識藥水</BrewingKnowledge.label>
+  <BrewingKnowledge.description>釀造知識藥水。</BrewingKnowledge.description>
+  <BrewingKnowledge.jobString>釀造中。</BrewingKnowledge.jobString>
+  <!-- Luciferium -->
+  <BrewingLuciferium.label>釀造路西法強化藥水</BrewingLuciferium.label>
+  <BrewingLuciferium.description>釀造路西法強化藥水。</BrewingLuciferium.description>
+  <BrewingLuciferium.jobString>釀造中。</BrewingLuciferium.jobString>
+</LanguageData>

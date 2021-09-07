@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <BottleCrafting.label>制作玻璃瓶</BottleCrafting.label>
+  <BottleCrafting.description>制作玻璃瓶。</BottleCrafting.description>
+  <BottleCrafting.jobString>正在制作玻璃瓶。</BottleCrafting.jobString>
+  <DustUraniumMaking.label>制作铀粉尘</DustUraniumMaking.label>
+  <DustUraniumMaking.description>制作铀粉尘。</DustUraniumMaking.description>
+  <DustUraniumMaking.jobString>正在制作铀粉尘。</DustUraniumMaking.jobString>
+  <DustGoldMaking.label>制作黄金粉尘</DustGoldMaking.label>
+  <DustGoldMaking.description>制作黄金粉尘。</DustGoldMaking.description>
+  <DustGoldMaking.jobString>正在制作黄金粉尘。</DustGoldMaking.jobString>
+  <DustJadeMaking.label>制作翡翠粉尘</DustJadeMaking.label>
+  <DustJadeMaking.description>制作翡翠粉尘。</DustJadeMaking.description>
+  <DustJadeMaking.jobString>正在制作翡翠粉尘。</DustJadeMaking.jobString>
+  <DustPlasteelMaking.label>制作玻璃钢粉尘</DustPlasteelMaking.label>
+  <DustPlasteelMaking.description>制作玻璃钢粉尘。</DustPlasteelMaking.description>
+  <DustPlasteelMaking.jobString>正在制作玻璃钢粉尘。</DustPlasteelMaking.jobString>
+  <DustWindDaisyMaking.label>制作缠风菊粉尘</DustWindDaisyMaking.label>
+  <DustWindDaisyMaking.description>制作缠风菊粉尘。</DustWindDaisyMaking.description>
+  <DustWindDaisyMaking.jobString>正在制作缠风菊粉尘。</DustWindDaisyMaking.jobString>
+  <ThrumboBoneExtracting.label>抽取敲击兽骨头</ThrumboBoneExtracting.label>
+  <ThrumboBoneExtracting.description>抽取敲击兽骨头。</ThrumboBoneExtracting.description>
+  <ThrumboBoneExtracting.jobString>正在抽取敲击兽骨头。</ThrumboBoneExtracting.jobString>
+</LanguageData>

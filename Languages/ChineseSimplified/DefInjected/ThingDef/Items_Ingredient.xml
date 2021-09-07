@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PlasteelDust.label>玻璃钢粉尘</PlasteelDust.label>
+  <PlasteelDust.description>先进的太空科技材料被带进了中世纪。玻璃钢粉尘是酿造药水的原料之一，属性非强烈。</PlasteelDust.description>
+  <GoldDust.label>黄金粉尘</GoldDust.label>
+  <GoldDust.description>最诱惑人心的金属。黄金粉尘是酿造药水的原料之一，属性非强烈。</GoldDust.description>
+  <JadeDust.label>翡翠粉尘</JadeDust.label>
+  <JadeDust.description>漂亮的翆绿色粉尘。翡翠粉尘是酿造药水的原料之一，属性非强烈。</JadeDust.description>
+  <UraniumDust.label>铀粉尘</UraniumDust.label>
+  <UraniumDust.description>一种暗色粉尘，是用于酿造药水的原料，属性非强烈。</UraniumDust.description>
+  <WindDaisyBloom.label>绽放的缠风菊</WindDaisyBloom.label>
+  <WindDaisyBloom.description>绽放的缠风菊。一种美丽且神奇的植物，来远古世界中法师们使用。</WindDaisyBloom.description>
+  <WindDaisyDust.label>缠风菊粉尘</WindDaisyDust.label>
+  <WindDaisyDust.description>酿造药水的材料之一。</WindDaisyDust.description>
+  <PGlassBottle.label>玻璃瓶</PGlassBottle.label>
+  <PGlassBottle.description>一个简单的玻璃瓶，用于装载药水。</PGlassBottle.description>
+  <PThrumboBone.label>敲击兽骨头</PThrumboBone.label>
+  <PThrumboBone.description>用于酿造药水，来自敲击兽的粗大骨头。</PThrumboBone.description>
+</LanguageData>

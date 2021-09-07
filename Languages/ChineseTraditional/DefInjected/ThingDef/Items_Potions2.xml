@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Pain -->
+  <PPotionPain.label>藥水（減輕傷痛）</PPotionPain.label>
+  <PPotionPain.description>一種飲用後會在短時間內減輕傷痛的藥水。</PPotionPain.description>
+  <PPotionPain.ingestible.ingestCommandString>飲用{0}</PPotionPain.ingestible.ingestCommandString>
+  <PPotionPain.ingestible.ingestReportString>正在飲用{0}。</PPotionPain.ingestible.ingestReportString>
+  <!-- Consciousness -->
+  <PPotionConsciousness.label>藥水（增強意識）</PPotionConsciousness.label>
+  <PPotionConsciousness.description>一種飲用後會在短時間內增強意識的藥水。</PPotionConsciousness.description>
+  <PPotionConsciousness.ingestible.ingestCommandString>飲用{0}</PPotionConsciousness.ingestible.ingestCommandString>
+  <PPotionConsciousness.ingestible.ingestReportString>正在飲用{0}。</PPotionConsciousness.ingestible.ingestReportString>
+  <!-- Sight -->
+  <PPotionSight.label>藥水（提升視野）</PPotionSight.label>
+  <PPotionSight.description>一種飲用後會在短時間內提升視野的藥水。</PPotionSight.description>
+  <PPotionSight.ingestible.ingestCommandString>飲用{0}</PPotionSight.ingestible.ingestCommandString>
+  <PPotionSight.ingestible.ingestReportString>正在飲用{0}。</PPotionSight.ingestible.ingestReportString>
+  <!-- Moving -->
+  <PPotionMoving.label>藥水（提升移動）</PPotionMoving.label>
+  <PPotionMoving.description>一種飲用後會在短時間內提升移動的藥水。</PPotionMoving.description>
+  <PPotionMoving.ingestible.ingestCommandString>飲用{0}</PPotionMoving.ingestible.ingestCommandString>
+  <PPotionMoving.ingestible.ingestReportString>正在飲用{0}。</PPotionMoving.ingestible.ingestReportString>
+  <!-- Metabolism -->
+  <PPotionMetabolism.label>藥水（增強代謝）</PPotionMetabolism.label>
+  <PPotionMetabolism.description>一種飲用後會在短時間內增強代謝的藥水。</PPotionMetabolism.description>
+  <PPotionMetabolism.ingestible.ingestCommandString>飲用{0}</PPotionMetabolism.ingestible.ingestCommandString>
+  <PPotionMetabolism.ingestible.ingestReportString>正在飲用{0}。</PPotionMetabolism.ingestible.ingestReportString>
+  <!-- Breathing -->
+  <PPotionBreathing.label>藥水（增強呼吸）</PPotionBreathing.label>
+  <PPotionBreathing.description>一種飲用後會在短時間內增強呼吸的藥水。</PPotionBreathing.description>
+  <PPotionBreathing.ingestible.ingestCommandString>飲用{0}</PPotionBreathing.ingestible.ingestCommandString>
+  <PPotionBreathing.ingestible.ingestReportString>正在飲用{0}。</PPotionBreathing.ingestible.ingestReportString>
+  <!-- BloodFiltration -->
+  <PPotionBloodFiltration.label>藥水（增強血液過濾）</PPotionBloodFiltration.label>
+  <PPotionBloodFiltration.description>一種飲用後會在短時間內增強血液過濾的藥水。</PPotionBloodFiltration.description>
+  <PPotionBloodFiltration.ingestible.ingestCommandString>飲用{0}</PPotionBloodFiltration.ingestible.ingestCommandString>
+  <PPotionBloodFiltration.ingestible.ingestReportString>正在飲用{0}。</PPotionBloodFiltration.ingestible.ingestReportString>
+  <!-- BloodPumping -->
+  <PPotionBloodPumping.label>藥水（增強血液循環）</PPotionBloodPumping.label>
+  <PPotionBloodPumping.description>一種飲用後會在短時間內增強血液循環的藥水。</PPotionBloodPumping.description>
+  <PPotionBloodPumping.ingestible.ingestCommandString>飲用{0}</PPotionBloodPumping.ingestible.ingestCommandString>
+  <PPotionBloodPumping.ingestible.ingestReportString>正在飲用{0}。</PPotionBloodPumping.ingestible.ingestReportString>
+  <!-- Rest -->
+  <PPotionRest.label>藥水（減慢疲倦速率）</PPotionRest.label>
+  <PPotionRest.description>一種飲用後會在短時間內減慢疲倦速率的藥水。</PPotionRest.description>
+  <PPotionRest.ingestible.ingestCommandString>飲用{0}</PPotionRest.ingestible.ingestCommandString>
+  <PPotionRest.ingestible.ingestReportString>正在飲用{0}。</PPotionRest.ingestible.ingestReportString>
+  <!-- Manipulation -->
+  <PPotionManipulation.label>藥水（提升操作）</PPotionManipulation.label>
+  <PPotionManipulation.description>一種飲用後會在短時間內提升操作的藥水。</PPotionManipulation.description>
+  <PPotionManipulation.ingestible.ingestCommandString>飲用{0}</PPotionManipulation.ingestible.ingestCommandString>
+  <PPotionManipulation.ingestible.ingestReportString>正在飲用{0}。</PPotionManipulation.ingestible.ingestReportString>
+  <!-- Hunger -->
+  <PPotionHunger.label>藥水（增加飢餓感）</PPotionHunger.label>
+  <PPotionHunger.description>一種飲用後會在短時間內增加饑餓感的藥水......你為什麼要喝？</PPotionHunger.description>
+  <PPotionHunger.ingestible.ingestCommandString>飲用{0}</PPotionHunger.ingestible.ingestCommandString>
+  <PPotionHunger.ingestible.ingestReportString>正在飲用{0}。</PPotionHunger.ingestible.ingestReportString>
+</LanguageData>
