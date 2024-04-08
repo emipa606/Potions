@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>BottleCrafting</defName>
+    <label>smelt stone chunks into bottles</label>
+    <description>Turn the stone chunks into bottles used for potion brewing.</description>
+    <jobString>Smelting stone chunks into bottles.</jobString>
+    <workAmount>1600</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>StoneChunks</li>
+          </categories>
+        </filter>
+        <count>0.25</count>
+      </li>
+    </ingredients>
+    <products>
+      <PGlassBottle>3</PGlassBottle>
+    </products>
+    <skillRequirements>
+      <Crafting>3</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <fixedIngredientFilter>
+      <categories>
+        <li>StoneChunks</li>
+      </categories>
+    </fixedIngredientFilter>
+    <researchPrerequisite>Smithing</researchPrerequisite>
+    <recipeUsers>
+      <li>FueledSmithy</li>
+      <li>ElectricSmithy</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>DustUraniumMaking</defName>
+    <label>turn uranium into dust</label>
+    <description>Turn uranium into dust used for potion brewing.</description>
+    <jobString>Making dust.</jobString>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <workSkill>Intellectual</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Uranium</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <UraniumDust>50</UraniumDust>
+    </products>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Uranium</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <researchPrerequisite>PSimpleBrewing</researchPrerequisite>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>DustGoldMaking</defName>
+    <label>turn gold into dust</label>
+    <description>Turn gold into dust used for potion brewing.</description>
+    <jobString>Making dust.</jobString>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <workSkill>Intellectual</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <GoldDust>50</GoldDust>
+    </products>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Gold</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <researchPrerequisite>PSimpleBrewing</researchPrerequisite>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>DustJadeMaking</defName>
+    <label>turn jade into dust</label>
+    <description>Turn jade into dust used for potion brewing.</description>
+    <jobString>Making dust.</jobString>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <workSkill>Intellectual</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Jade</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <JadeDust>50</JadeDust>
+    </products>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Jade</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <researchPrerequisite>PSimpleBrewing</researchPrerequisite>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>DustPlasteelMaking</defName>
+    <label>turn plasteel into dust</label>
+    <description>Turn plasteel into dust used for potion brewing.</description>
+    <jobString>Making dust.</jobString>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <workSkill>Intellectual</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <PlasteelDust>50</PlasteelDust>
+    </products>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <researchPrerequisite>PSimpleBrewing</researchPrerequisite>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>DustWindDaisyMaking</defName>
+    <label>turn wind daisy blooms into dust</label>
+    <description>Turn wind daisy blooms into dust used for potion brewing.</description>
+    <jobString>Making dust.</jobString>
+    <workAmount>600</workAmount>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <workSkill>Intellectual</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WindDaisyBloom</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <WindDaisyDust>10</WindDaisyDust>
+    </products>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WindDaisyBloom</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <researchPrerequisite>PSimpleBrewing</researchPrerequisite>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

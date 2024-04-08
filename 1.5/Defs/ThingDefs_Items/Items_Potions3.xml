@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--==Immunization I==-->
+  <ThingDef ParentName="MakeableDrugPillBase">
+    <defName>PPotionImmunizationI</defName>
+    <label>Potion of immunization</label>
+    <description>A potion for preventing infections before they take hold. Blocks malaria, sleeping sickness, plague. Must be taken every five days to remain effective.\n\nThis potion only prevents new infections. It does not cure existing infections - even those that are not yet discovered.</description>
+    <graphicData>
+      <texPath>Things/Item/PotionImmunizationI</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>600</WorkToMake>
+      <MarketValue>18</MarketValue>
+      <Mass>0.005</Mass>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>ImmunizationIHigh</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <ingestEffect>DrinkPotion</ingestEffect>
+    </ingestible>
+    <recipeMaker>
+      <researchPrerequisite>PImmunization</researchPrerequisite>
+      <recipeUsers>
+        <li>PCauldron</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <WindDaisyDust>2</WindDaisyDust>
+      <PGlassBottle>1</PGlassBottle>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1000</listOrder>
+        <overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>ImmunizationIHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>high on Potion of immunization</label>
+    <description>Strange substances in the bloodstream.</description>
+    <defaultLabelColor>(0,1,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.18</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <makeImmuneTo>
+          <li>Malaria</li>
+          <li>SleepingSickness</li>
+          <li>Plague</li>
+        </makeImmuneTo>
+      </li>
+    </stages>
+  </HediffDef>
+  <!--==Immunization II==-->
+  <ThingDef ParentName="MakeableDrugPillBase">
+    <defName>PPotionImmunizationII</defName>
+    <label>Potion of adv. immunization</label>
+    <description>A potion for preventing infections before they take hold. Blocks all vanilla diseases. Must be taken every five days to remain effective.\n\nThis potion only prevents new infections. It does not cure existing infections - even those that are not yet discovered.</description>
+    <graphicData>
+      <texPath>Things/Item/PotionImmunizationII</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>1300</WorkToMake>
+      <MarketValue>30</MarketValue>
+      <Mass>0.005</Mass>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>ImmunizationIIHigh</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <ingestEffect>DrinkPotion</ingestEffect>
+    </ingestible>
+    <recipeMaker>
+      <researchPrerequisite>PImmunization</researchPrerequisite>
+      <recipeUsers>
+        <li>PCauldron</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <WindDaisyDust>20</WindDaisyDust>
+      <PGlassBottle>1</PGlassBottle>
+      <GoldDust>10</GoldDust>
+      <PlasteelDust>5</PlasteelDust>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1000</listOrder>
+        <overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>ImmunizationIIHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>high on Potion of adv. immunization</label>
+    <description>Strange substances in the bloodstream.</description>
+    <defaultLabelColor>(0,1,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.18</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <makeImmuneTo>
+          <li>Malaria</li>
+          <li>SleepingSickness</li>
+          <li>Plague</li>
+          <li>GutWorms</li>
+          <li>MuscleParasites</li>
+          <li>FibrousMechanites</li>
+          <li>SensoryMechanites</li>
+          <li>Flu</li>
+        </makeImmuneTo>
+      </li>
+    </stages>
+  </HediffDef>
+  <!--==========Mental Break===============-->
+  <ThingDef Name="PMentalBreakBase" Abstract="True">
+    <graphicData>
+      <texPath>Things/Item/PotionMentalBreak</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>0.25</DeteriorationRate>
+      <MarketValue>40</MarketValue>
+      <Mass>0.3</Mass>
+      <WorkToMake>500</WorkToMake>
+      <Nutrition>0.05</Nutrition>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Beauty>0</Beauty>
+    </statBases>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+      <optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
+      <ingestEffect>DrinkPotion</ingestEffect>
+      <!--<ingestSound>Ingest_Pill</ingestSound>-->
+      <foodType>Meal</foodType>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+    </ingestible>
+    <uiIconForStackCount>1</uiIconForStackCount>
+    <pathCost>15</pathCost>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Ingredients" />
+      <li Class="CompProperties_FoodPoisonable" />
+    </comps>
+    <alwaysHaulable>true</alwaysHaulable>
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>10</stackLimit>
+    <tickerType>Rare</tickerType>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <thingCategories>
+      <li>
+        <!--FoodMeals-->PPotionsStats</li>
+    </thingCategories>
+    <techLevel>Medieval</techLevel>
+  </ThingDef>
+  <!--==Sad Wander==-->
+  <ThingDef ParentName="PMentalBreakBase">
+    <defName>PPotionSadWander</defName>
+    <label>Sad wander potion</label>
+    <description>A potion that leads to sad wander.</description>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>SadWanderHigh</hediffDef>
+          <!--<severity>1.00</severity>-->
+          <doToGeneratedPawnIfAddicted>true</doToGeneratedPawnIfAddicted>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+  <!--==Insulting Spree==-->
+  <ThingDef ParentName="PMentalBreakBase">
+    <defName>PPotionInsultingSpree</defName>
+    <label>Insulting spree potion</label>
+    <description>A potion that leads to insulting spree.</description>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>InsultingSpreeHigh</hediffDef>
+          <!--<severity>1.00</severity>-->
+          <doToGeneratedPawnIfAddicted>true</doToGeneratedPawnIfAddicted>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+  <!--==Fire Starting Spree==-->
+  <ThingDef ParentName="PMentalBreakBase">
+    <defName>PPotionFireStartingSpree</defName>
+    <label>Fire starting spree potion</label>
+    <description>A potion that leads to fire starting spree.</description>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>FireStartingSpreeHigh</hediffDef>
+          <!--<severity>1.00</severity>-->
+          <doToGeneratedPawnIfAddicted>true</doToGeneratedPawnIfAddicted>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+  <!--==Berserk==-->
+  <ThingDef ParentName="PMentalBreakBase">
+    <defName>PPotionBerserk</defName>
+    <label>Berserk potion</label>
+    <description>A potion that leads to berserk.</description>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>BerserkHigh</hediffDef>
+          <!--<severity>1.00</severity>-->
+          <doToGeneratedPawnIfAddicted>true</doToGeneratedPawnIfAddicted>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+  <!--==Catatonia==-->
+  <ThingDef ParentName="PMentalBreakBase">
+    <defName>PPotionCatatonia</defName>
+    <label>Catatonia potion</label>
+    <description>A potion that leads to catatonia.</description>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>CatatoniaHigh</hediffDef>
+          <!--<severity>1.00</severity>-->
+          <doToGeneratedPawnIfAddicted>true</doToGeneratedPawnIfAddicted>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+  <HediffDef Name="PMentalBreakHediffBase" Abstract="True">
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0,1,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>99~100</disappearsAfterTicks>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="PMentalBreakHediffBase">
+    <defName>SadWanderHigh</defName>
+    <label>high on Sad wander potion</label>
+    <description>Strange substances in the bloodstream.</description>
+    <labelNoun>a Sad wander potion high</labelNoun>
+    <stages>
+      <li>
+        <mentalStateGivers>
+          <li>
+            <mentalState>Wander_Sad</mentalState>
+            <mtbDays>0.0001</mtbDays>
+          </li>
+        </mentalStateGivers>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="PMentalBreakHediffBase">
+    <defName>InsultingSpreeHigh</defName>
+    <label>high on Insulting spree potion</label>
+    <description>Strange substances in the bloodstream.</description>
+    <labelNoun>an Insulting spree potion high</labelNoun>
+    <stages>
+      <li>
+        <mentalStateGivers>
+          <li>
+            <mentalState>InsultingSpree</mentalState>
+            <mtbDays>0.0001</mtbDays>
+          </li>
+        </mentalStateGivers>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="PMentalBreakHediffBase">
+    <defName>FireStartingSpreeHigh</defName>
+    <label>high on Fire starting spree potion</label>
+    <description>Strange substances in the bloodstream.</description>
+    <labelNoun>a Fire starting spree potion high</labelNoun>
+    <stages>
+      <li>
+        <mentalStateGivers>
+          <li>
+            <mentalState>FireStartingSpree</mentalState>
+            <mtbDays>0.0001</mtbDays>
+          </li>
+        </mentalStateGivers>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="PMentalBreakHediffBase">
+    <defName>BerserkHigh</defName>
+    <label>high on Berser potion</label>
+    <description>Strange substances in the bloodstream.</description>
+    <labelNoun>a Berser potion high</labelNoun>
+    <stages>
+      <li>
+        <mentalStateGivers>
+          <li>
+            <mentalState>Berserk</mentalState>
+            <mtbDays>0.0001</mtbDays>
+          </li>
+        </mentalStateGivers>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef>
+    <defName>CatatoniaHigh</defName>
+    <label>high on Catatonia potion</label>
+    <description>Strange substances in the bloodstream.</description>
+    <labelNoun>a Catatonia potion high</labelNoun>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0,1,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>100000~300000</disappearsAfterTicks>
+      </li>
+      <li Class="HediffCompProperties_RecoveryThought">
+        <thought>Catharsis</thought>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.1</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <!--==Antiradiation==-->
+  <ThingDef ParentName="MakeableDrugPillBase">
+    <defName>PPotionAntiradiation</defName>
+    <label>Antiradiation potion</label>
+    <description>A potion for preventing radiation before they take hold. Blocks toxic buildup. Must be taken every five days to remain effective.</description>
+    <graphicData>
+      <texPath>Things/Item/PotionAntiradiation</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>1200</WorkToMake>
+      <MarketValue>26</MarketValue>
+      <Mass>0.005</Mass>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>AntiradiationHigh</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <ingestEffect>DrinkPotion</ingestEffect>
+    </ingestible>
+    <recipeMaker>
+      <researchPrerequisite>PAntiradiation</researchPrerequisite>
+      <recipeUsers>
+        <li>PCauldron</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <WindDaisyDust>5</WindDaisyDust>
+      <PGlassBottle>1</PGlassBottle>
+      <GoldDust>40</GoldDust>
+      <PlasteelDust>15</PlasteelDust>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1000</listOrder>
+        <overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>AntiradiationHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>high on Antiradiation potion</label>
+    <description>Strange substances in the bloodstream.</description>
+    <defaultLabelColor>(0,1,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.18</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ToxicResistance>1</ToxicResistance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

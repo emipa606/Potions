@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>PPotions</defName>
+    <label>potions</label>
+    <parent>Manufactured</parent>
+    <iconPath>Things/Item/PGlassBottle</iconPath>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>PPotionsStats</defName>
+    <label>potions of stats</label>
+    <parent>PPotions</parent>
+    <iconPath>Things/Item/PGlassBottle</iconPath>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>PIngredients</defName>
+    <label>ingredients</label>
+    <parent>PPotions</parent>
+    <iconPath>Things/Item/PGlassBottle</iconPath>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>PDrugPotion</defName>
+    <label>drug potion</label>
+    <parent>PPotions</parent>
+    <iconPath>Things/Item/PGlassBottle</iconPath>
+  </ThingCategoryDef>
+</Defs>

@@ -1,0 +1,572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef Name="PotionJobString" Abstract="True">
+    <jobString>Brewing {0}.</jobString>
+  </RecipeDef>
+  <!--==Saturation==-->
+  <RecipeDef ParentName="PotionJobString">
+    <defName>BrewingSaturation</defName>
+    <label>brew Potion of saturation</label>
+    <description>Brew Potion of saturation.</description>
+    <jobString>Brewing.</jobString>
+    <workAmount>1200</workAmount>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <workSkill>Intellectual</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WindDaisyDust</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PGlassBottle</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>0.25</count>
+      </li>
+    </ingredients>
+    <products>
+      <PPotionSaturation>1</PPotionSaturation>
+    </products>
+    <skillRequirements>
+      <Cooking>5</Cooking>
+    </skillRequirements>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WindDaisyDust</li>
+        <li>PGlassBottle</li>
+      </thingDefs>
+      <categories>
+        <li>PlantFoodRaw</li>
+      </categories>
+    </fixedIngredientFilter>
+    <researchPrerequisite>PSimpleBrewing</researchPrerequisite>
+    <recipeUsers>
+      <li>PCauldron</li>
+    </recipeUsers>
+  </RecipeDef>
+  <!--==Skills==-->
+  <RecipeDef ParentName="PotionJobString" Name="PotionSkillRecipeBase" Abstract="True">
+    <jobString>Brewing.</jobString>
+    <workAmount>5000</workAmount>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <workSkill>Intellectual</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WindDaisyDust</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PlasteelDust</li>
+          </thingDefs>
+        </filter>
+        <count>200</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>UraniumDust</li>
+          </thingDefs>
+        </filter>
+        <count>200</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>GoldDust</li>
+          </thingDefs>
+        </filter>
+        <count>200</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PGlassBottle</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <skillRequirements>
+      <Cooking>10</Cooking>
+    </skillRequirements>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WindDaisyDust</li>
+        <li>PlasteelDust</li>
+        <li>UraniumDust</li>
+        <li>GoldDust</li>
+        <li>PGlassBottle</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <researchPrerequisite>PSkills</researchPrerequisite>
+    <recipeUsers>
+      <li>PCauldron</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef ParentName="PotionSkillRecipeBase">
+    <defName>BrewingSkills_Shooting</defName>
+    <label>brew Potion of Shooting skills</label>
+    <description>Brew Potion of Shooting skills.</description>
+    <products>
+      <PPotionSkills_Shooting>1</PPotionSkills_Shooting>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="PotionSkillRecipeBase">
+    <defName>BrewingSkills_Melee</defName>
+    <label>brew Potion of Melee skills</label>
+    <description>Brew Potion of Melee skills.</description>
+    <products>
+      <PPotionSkills_Melee>1</PPotionSkills_Melee>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="PotionSkillRecipeBase">
+    <defName>BrewingSkills_Construction</defName>
+    <label>brew Potion of Construction skills</label>
+    <description>Brew Potion of Construction skills.</description>
+    <products>
+      <PPotionSkills_Construction>1</PPotionSkills_Construction>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="PotionSkillRecipeBase">
+    <defName>BrewingSkills_Mining</defName>
+    <label>brew Potion of Mining skills</label>
+    <description>Brew Potion of Mining skills.</description>
+    <products>
+      <PPotionSkills_Mining>1</PPotionSkills_Mining>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="PotionSkillRecipeBase">
+    <defName>BrewingSkills_Cooking</defName>
+    <label>brew Potion of Cooking skills</label>
+    <description>Brew Potion of Cooking skills.</description>
+    <products>
+      <PPotionSkills_Cooking>1</PPotionSkills_Cooking>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="PotionSkillRecipeBase">
+    <defName>BrewingSkills_Plants</defName>
+    <label>brew Potion of Plants skills</label>
+    <description>Brew Potion of Plants skills.</description>
+    <products>
+      <PPotionSkills_Plants>1</PPotionSkills_Plants>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="PotionSkillRecipeBase">
+    <defName>BrewingSkills_Animals</defName>
+    <label>brew Potion of Animals skills</label>
+    <description>Brew Potion of Animals skills.</description>
+    <products>
+      <PPotionSkills_Animals>1</PPotionSkills_Animals>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="PotionSkillRecipeBase">
+    <defName>BrewingSkills_Crafting</defName>
+    <label>brew Potion of Crafting skills</label>
+    <description>Brew Potion of Crafting skills.</description>
+    <products>
+      <PPotionSkills_Crafting>1</PPotionSkills_Crafting>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="PotionSkillRecipeBase">
+    <defName>BrewingSkills_Artistic</defName>
+    <label>brew Potion of Artistic skills</label>
+    <description>Brew Potion of Artistic skills.</description>
+    <products>
+      <PPotionSkills_Artistic>1</PPotionSkills_Artistic>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="PotionSkillRecipeBase">
+    <defName>BrewingSkills_Medicine</defName>
+    <label>brew Potion of Medicine skills</label>
+    <description>Brew Potion of Medicine skills.</description>
+    <products>
+      <PPotionSkills_Medicine>1</PPotionSkills_Medicine>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="PotionSkillRecipeBase">
+    <defName>BrewingSkills_Social</defName>
+    <label>brew Potion of Social skills</label>
+    <description>Brew Potion of Social skills.</description>
+    <products>
+      <PPotionSkills_Social>1</PPotionSkills_Social>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="PotionSkillRecipeBase">
+    <defName>BrewingSkills_Intellectual</defName>
+    <label>brew Potion of Intellectual skills</label>
+    <description>Brew Potion of Intellectual skills.</description>
+    <products>
+      <PPotionSkills_Intellectual>1</PPotionSkills_Intellectual>
+    </products>
+  </RecipeDef>
+  <!--==Healer==-->
+  <RecipeDef ParentName="PotionJobString">
+    <defName>BrewingHealer</defName>
+    <label>brew Healing potion</label>
+    <description>Brew Healing potion.</description>
+    <jobString>Brewing.</jobString>
+    <workAmount>8000</workAmount>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <workSkill>Intellectual</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WindDaisyDust</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PlasteelDust</li>
+          </thingDefs>
+        </filter>
+        <count>250</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>UraniumDust</li>
+          </thingDefs>
+        </filter>
+        <count>200</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>GoldDust</li>
+          </thingDefs>
+        </filter>
+        <count>250</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ThrumboHorn</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>JadeDust</li>
+          </thingDefs>
+        </filter>
+        <count>200</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineHerbal</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PGlassBottle</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <PPotionHealer>1</PPotionHealer>
+    </products>
+    <skillRequirements>
+      <Cooking>14</Cooking>
+    </skillRequirements>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WindDaisyDust</li>
+        <li>PlasteelDust</li>
+        <li>UraniumDust</li>
+        <li>GoldDust</li>
+        <li>JadeDust</li>
+        <li>MedicineHerbal</li>
+        <li>PGlassBottle</li>
+        <li>ThrumboHorn</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <researchPrerequisite>PHealer</researchPrerequisite>
+    <recipeUsers>
+      <li>PCauldron</li>
+    </recipeUsers>
+  </RecipeDef>
+  <!--==Life==-->
+  <RecipeDef ParentName="PotionJobString">
+    <defName>BrewingLife</defName>
+    <label>brew Potion of life</label>
+    <description>Brew Potion of life.</description>
+    <jobString>Brewing.</jobString>
+    <workAmount>12000</workAmount>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <workSkill>Intellectual</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WindDaisyDust</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PlasteelDust</li>
+          </thingDefs>
+        </filter>
+        <count>350</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>UraniumDust</li>
+          </thingDefs>
+        </filter>
+        <count>300</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>GoldDust</li>
+          </thingDefs>
+        </filter>
+        <count>350</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ThrumboHorn</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>JadeDust</li>
+          </thingDefs>
+        </filter>
+        <count>300</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineHerbal</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PGlassBottle</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <PPotionLife>1</PPotionLife>
+    </products>
+    <skillRequirements>
+      <Cooking>17</Cooking>
+    </skillRequirements>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WindDaisyDust</li>
+        <li>PlasteelDust</li>
+        <li>UraniumDust</li>
+        <li>GoldDust</li>
+        <li>JadeDust</li>
+        <li>MedicineHerbal</li>
+        <li>PGlassBottle</li>
+        <li>ThrumboHorn</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <researchPrerequisite>PLife</researchPrerequisite>
+    <recipeUsers>
+      <li>PCauldron</li>
+    </recipeUsers>
+  </RecipeDef>
+  <!--==Knowledge==-->
+  <RecipeDef ParentName="PotionJobString">
+    <defName>BrewingKnowledge</defName>
+    <label>brew Potion of knowledge</label>
+    <description>Brew Potion of knowledge.</description>
+    <jobString>Brewing.</jobString>
+    <workAmount>2500</workAmount>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <workSkill>Intellectual</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WindDaisyDust</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PlasteelDust</li>
+          </thingDefs>
+        </filter>
+        <count>250</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>UraniumDust</li>
+          </thingDefs>
+        </filter>
+        <count>200</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>GoldDust</li>
+          </thingDefs>
+        </filter>
+        <count>200</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>JadeDust</li>
+          </thingDefs>
+        </filter>
+        <count>200</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PGlassBottle</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <PPotionKnowledge>1</PPotionKnowledge>
+    </products>
+    <skillRequirements>
+      <Cooking>16</Cooking>
+    </skillRequirements>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WindDaisyDust</li>
+        <li>PlasteelDust</li>
+        <li>UraniumDust</li>
+        <li>GoldDust</li>
+        <li>JadeDust</li>
+        <li>PGlassBottle</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <researchPrerequisite>PKnowledge</researchPrerequisite>
+    <recipeUsers>
+      <li>PCauldron</li>
+    </recipeUsers>
+  </RecipeDef>
+  <!--==Luciferium==-->
+  <RecipeDef ParentName="PotionJobString">
+    <defName>BrewingLuciferium</defName>
+    <label>brew Luciferium potion</label>
+    <description>Brew Luciferium potion.</description>
+    <jobString>Brewing.</jobString>
+    <workAmount>2500</workAmount>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <workSkill>Intellectual</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WindDaisyDust</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PlasteelDust</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineHerbal</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PGlassBottle</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <PPotionLuciferium>1</PPotionLuciferium>
+    </products>
+    <skillRequirements>
+      <Cooking>12</Cooking>
+    </skillRequirements>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WindDaisyDust</li>
+        <li>PlasteelDust</li>
+        <li>MedicineHerbal</li>
+        <li>PGlassBottle</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <researchPrerequisite>PLuciferium</researchPrerequisite>
+    <recipeUsers>
+      <li>PCauldron</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

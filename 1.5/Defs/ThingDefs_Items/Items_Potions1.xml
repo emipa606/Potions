@@ -1,0 +1,719 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--=============== Mech serum ====================-->
+  <ThingDef ParentName="ResourceBase" Name="PMechSerumBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.2</Mass>
+      <DeteriorationRate>2.0</DeteriorationRate>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>
+        <!--Items-->PPotions</li>
+    </thingCategories>
+    <techLevel>Medieval</techLevel>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+  <ThingDef ParentName="PMechSerumBase" Name="PPotionSkillsBase" Abstract="True">
+    <graphicData>
+      <texPath>Things/Item/PotionSkills</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>1</stackLimit>
+    <tradeNeverStack>true</tradeNeverStack>
+    <statBases>
+      <MarketValue>750</MarketValue>
+    </statBases>
+    <drawGUIOverlay>false</drawGUIOverlay>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseNeurotrainer</useJob>
+        <useLabel>Use Potion of Skills to learn {0}</useLabel>
+        <showUseGizmo>true</showUseGizmo>
+      </li>
+      <li Class="CompProperties_UseEffectDestroySelf">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  <ThingDef ParentName="PPotionSkillsBase">
+    <defName>PPotionSkills_Shooting</defName>
+    <label>Potion of Shooting skills</label>
+    <description>A potion to train Shooting.</description>
+    <comps>
+      <li Class="CompProperties_UseEffect_LearnSkill">
+        <skill>Shooting</skill>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="PPotionSkillsBase">
+    <defName>PPotionSkills_Melee</defName>
+    <label>Potion of Melee skills</label>
+    <description>A potion to train Melee.</description>
+    <comps>
+      <li Class="CompProperties_UseEffect_LearnSkill">
+        <skill>Melee</skill>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="PPotionSkillsBase">
+    <defName>PPotionSkills_Construction</defName>
+    <label>Potion of Construction skills</label>
+    <description>A potion to train Construction.</description>
+    <comps>
+      <li Class="CompProperties_UseEffect_LearnSkill">
+        <skill>Construction</skill>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="PPotionSkillsBase">
+    <defName>PPotionSkills_Mining</defName>
+    <label>Potion of Mining skills</label>
+    <description>A potion to train Mining.</description>
+    <comps>
+      <li Class="CompProperties_UseEffect_LearnSkill">
+        <skill>Mining</skill>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="PPotionSkillsBase">
+    <defName>PPotionSkills_Cooking</defName>
+    <label>Potion of Cooking skills</label>
+    <description>A potion to train Cooking.</description>
+    <comps>
+      <li Class="CompProperties_UseEffect_LearnSkill">
+        <skill>Cooking</skill>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="PPotionSkillsBase">
+    <defName>PPotionSkills_Plants</defName>
+    <label>Potion of Plants skills</label>
+    <description>A potion to train Plants.</description>
+    <comps>
+      <li Class="CompProperties_UseEffect_LearnSkill">
+        <skill>Plants</skill>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="PPotionSkillsBase">
+    <defName>PPotionSkills_Crafting</defName>
+    <label>Potion of Crafting skills</label>
+    <description>A potion to train Crafting.</description>
+    <comps>
+      <li Class="CompProperties_UseEffect_LearnSkill">
+        <skill>Crafting</skill>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="PPotionSkillsBase">
+    <defName>PPotionSkills_Artistic</defName>
+    <label>Potion of Artistic skills</label>
+    <description>A potion to train Artistic.</description>
+    <comps>
+      <li Class="CompProperties_UseEffect_LearnSkill">
+        <skill>Artistic</skill>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="PPotionSkillsBase">
+    <defName>PPotionSkills_Medicine</defName>
+    <label>Potion of Medicine skills</label>
+    <description>A potion to train Medicine.</description>
+    <comps>
+      <li Class="CompProperties_UseEffect_LearnSkill">
+        <skill>Medicine</skill>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="PPotionSkillsBase">
+    <defName>PPotionSkills_Social</defName>
+    <label>Potion of Social skills</label>
+    <description>A potion to train Social.</description>
+    <comps>
+      <li Class="CompProperties_UseEffect_LearnSkill">
+        <skill>Social</skill>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="PPotionSkillsBase">
+    <defName>PPotionSkills_Intellectual</defName>
+    <label>Potion of Intellectual skills</label>
+    <description>A potion to train Intellectual.</description>
+    <comps>
+      <li Class="CompProperties_UseEffect_LearnSkill">
+        <skill>Intellectual</skill>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="PPotionSkillsBase">
+    <defName>PPotionSkills_Animals</defName>
+    <label>Potion of Animals skills</label>
+    <description>A potion to train Animals.</description>
+    <comps>
+      <li Class="CompProperties_UseEffect_LearnSkill">
+        <skill>Animals</skill>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="PMechSerumBase">
+    <defName>PPotionHealer</defName>
+    <label>Healing potion</label>
+    <description>A potion to heal health conditions. It heals the single worst health condition affecting someone at any given time. Works even on health conditions that would otherwise be incurable. They can even form new limbs or organs as needed.</description>
+    <graphicData>
+      <texPath>Things/Item/PotionHealer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>10</stackLimit>
+    <statBases>
+      <MarketValue>1300</MarketValue>
+    </statBases>
+    <tradeability>Sellable</tradeability>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Drink Healing potion</useLabel>
+        <useDuration>600</useDuration>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_FixWorstHealthCondition</compClass>
+      </li>
+      <li Class="CompProperties_UseEffectDestroySelf" />
+    </comps>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  <RecipeDef>
+    <defName>PAdministerPotionHealer</defName>
+    <label>administer Healing potion</label>
+    <description>Administer a Healing potion.</description>
+    <workerClass>Recipe_AdministerUsableItem</workerClass>
+    <jobString>Administering Healing potion.</jobString>
+    <targetsBodyPart>false</targetsBodyPart>
+    <anesthetize>false</anesthetize>
+    <workAmount>600</workAmount>
+    <dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
+    <surgerySuccessChanceFactor>99999</surgerySuccessChanceFactor>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PPotionHealer</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PPotionHealer</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <ThingDef ParentName="PMechSerumBase">
+    <defName>PPotionLife</defName>
+    <label>Potion of life</label>
+    <description>A potion to resurrect the dead. Unfortunately, the resurrected sometimes come back with brain damage, blindness, or progressive psychosis. Outcomes are better when the ´potion is administered to a fresher body. If a body is preserved, it can even be resurrected long after death.</description>
+    <graphicData>
+      <texPath>Things/Item/PotionLife</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>10</stackLimit>
+    <statBases>
+      <MarketValue>1700</MarketValue>
+    </statBases>
+    <tradeability>Sellable</tradeability>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Drink Potion of Life</useLabel>
+        <useDuration>0</useDuration>
+      </li>
+      <li Class="CompProperties_Targetable">
+        <compClass>CompTargetable_SingleCorpse</compClass>
+        <fleshCorpsesOnly>true</fleshCorpsesOnly>
+        <nonDessicatedCorpsesOnly>true</nonDessicatedCorpsesOnly>
+      </li>
+      <li>
+        <compClass>CompTargetEffect_Resurrect</compClass>
+      </li>
+    </comps>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  <!--=============== Technology helper persona ====================-->
+  <ThingDef ParentName="ResourceBase">
+    <defName>PPotionKnowledge</defName>
+    <label>Potion of knowledge</label>
+    <thingClass>ThingWithComps</thingClass>
+    <description>A potion to teach you. When used, the potion will teach you the technology you're currently researching, instantly and for free.</description>
+    <graphicData>
+      <texPath>Things/Item/PotionKnowledge</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>1</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>2.0</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>
+        <!--Items-->PPotions</li>
+    </thingCategories>
+    <tradeability>Sellable</tradeability>
+    <techLevel>Medieval</techLevel>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Drink Potion of knowledge</useLabel>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_FinishRandomResearchProject</compClass>
+      </li>
+      <li Class="CompProperties_UseEffectDestroySelf" />
+    </comps>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  <!--================Luciferium==================-->
+  <ThingDef ParentName="DrugPillBase">
+    <defName>PPotionLuciferium</defName>
+    <label>Luciferium potion</label>
+    <description>A potion that dramatically improve the body's functioning in all respects. Over time, it can even heal old scarred-over wounds or brain damage, though it cannot regenerate lost limbs. Unfortunately, without the moderating effects of regular doses every five or six days, the potion lose cohesion, causing continuous berserk rages and, eventually, death.\n\nAfter the first dose, there is no way to get the potion out, ever.</description>
+    <graphicData>
+      <texPath>Things/Item/PotionLuciferium</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MarketValue>120</MarketValue>
+      <Mass>0.01</Mass>
+    </statBases>
+    <thingCategories>
+      <li>
+        <!--Drugs-->PDrugPotion</li>
+    </thingCategories>
+    <techLevel>Medieval</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>LuciferiumHigh</hediffDef>
+          <severity>1.00</severity>
+          <doToGeneratedPawnIfAddicted>true</doToGeneratedPawnIfAddicted>
+        </li>
+      </outcomeDoers>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <ingestEffect>DrinkPotion</ingestEffect>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <chemical>Luciferium</chemical>
+        <addictiveness>1.00</addictiveness>
+        <needLevelOffset>1.00</needLevelOffset>
+        <listOrder>1010</listOrder>
+      </li>
+    </comps>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+  <!--==================Saturation===================-->
+  <ThingDef>
+    <defName>PPotionSaturation</defName>
+    <label>Potion of saturation</label>
+    <description>A Potion of saturation, brewed for use in survival situations. While it never rots, it can still deteriorate if left outside. Great for traveling.</description>
+    <graphicData>
+      <texPath>Things/Item/PotionSaturation</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>0.25</DeteriorationRate>
+      <MarketValue>24</MarketValue>
+      <Mass>0.3</Mass>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Beauty>0</Beauty>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
+      <ingestEffect>DrinkPotion</ingestEffect>
+      <!--<ingestSound>Meal_Eat</ingestSound>-->
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <foodType>Meal</foodType>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>SaturationHigh</hediffDef>
+          <severity>1.00</severity>
+          <doToGeneratedPawnIfAddicted>true</doToGeneratedPawnIfAddicted>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <uiIconForStackCount>1</uiIconForStackCount>
+    <pathCost>15</pathCost>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Ingredients" />
+      <li Class="CompProperties_FoodPoisonable" />
+    </comps>
+    <alwaysHaulable>true</alwaysHaulable>
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>10</stackLimit>
+    <tickerType>Rare</tickerType>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <thingCategories>
+      <li>
+        <!--FoodMeals-->PPotionsStats</li>
+    </thingCategories>
+    <techLevel>Medieval</techLevel>
+  </ThingDef>
+  <HediffDef>
+    <defName>SaturationHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>high on Potion of saturation</label>
+    <description>Strange substances in the bloodstream.</description>
+    <labelNoun>a Potion of saturation high</labelNoun>
+    <defaultLabelColor>(0,1,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.50</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <hungerRateFactorOffset>-0.5</hungerRateFactorOffset>
+      </li>
+    </stages>
+  </HediffDef>
+  <!--==============Drugs==================-->
+  <ThingDef ParentName="MakeableDrugPillBase">
+    <defName>PPotionWakeUp</defName>
+    <label>Wake-up potion</label>
+    <description>The Wake-up potion fills the user's need for rest, and allows users to work for extended periods without getting tired. However, repeated use will produce an addiction which reduces mental performance and can even generate psychotic breaks.</description>
+    <graphicData>
+      <texPath>Things/Item/PotionWakeUp</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>900</WorkToMake>
+      <MarketValue>35</MarketValue>
+      <Mass>0.005</Mass>
+    </statBases>
+    <thingCategories>
+      <li>
+        <!--Drugs-->PDrugPotion</li>
+    </thingCategories>
+    <techLevel>Medieval</techLevel>
+    <ingestible>
+      <joyKind>Chemical</joyKind>
+      <joy>0.40</joy>
+      <drugCategory>Hard</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>WakeUpHigh</hediffDef>
+          <severity>0.75</severity>
+          <toleranceChemical>WakeUp</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_OffsetNeed">
+          <need>Rest</need>
+          <offset>1.0</offset>
+          <toleranceChemical>WakeUp</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>WakeUpTolerance</hediffDef>
+          <severity>0.045</severity>
+          <divideByBodySize>true</divideByBodySize>
+        </li>
+      </outcomeDoers>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <ingestEffect>DrinkPotion</ingestEffect>
+    </ingestible>
+    <recipeMaker>
+      <researchPrerequisite>PDrug</researchPrerequisite>
+      <recipeUsers>
+        <li>PCauldron</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <WindDaisyDust>2</WindDaisyDust>
+      <PGlassBottle>1</PGlassBottle>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <chemical>WakeUp</chemical>
+        <addictiveness>0.10</addictiveness>
+        <minToleranceToAddict>0.08</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
+        <needLevelOffset>1</needLevelOffset>
+        <listOrder>210</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.18</min>
+          <max>0.35</max>
+        </overdoseSeverityOffset>
+        <largeOverdoseChance>0.01</largeOverdoseChance>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="MakeableDrugBase">
+    <defName>PPotionGoJuice</defName>
+    <label>Go-juice potion</label>
+    <description>The Go-juice potion blocks pain, increases movement speed, and improves the user's melee and shooting abilities.</description>
+    <graphicData>
+      <texPath>Things/Item/PotionGoJuice</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>900</WorkToMake>
+      <MarketValue>53</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+    <thingCategories>
+      <li>
+        <!--Drugs-->PDrugPotion</li>
+    </thingCategories>
+    <techLevel>Medieval</techLevel>
+    <ingestible>
+      <joyKind>Chemical</joyKind>
+      <joy>0.40</joy>
+      <drugCategory>Hard</drugCategory>
+      <foodType>Meal</foodType>
+      <baseIngestTicks>90</baseIngestTicks>
+      <ingestEffect>DrinkPotion</ingestEffect>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <useEatingSpeedStat>false</useEatingSpeedStat>
+      <chairSearchRadius>0</chairSearchRadius>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>GoJuiceHigh</hediffDef>
+          <severity>0.75</severity>
+          <toleranceChemical>GoJuice</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_OffsetNeed">
+          <need>Rest</need>
+          <offset>0.4</offset>
+          <toleranceChemical>GoJuice</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>GoJuiceTolerance</hediffDef>
+          <severity>0.044</severity>
+          <divideByBodySize>true</divideByBodySize>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <researchPrerequisite>PDrug</researchPrerequisite>
+      <recipeUsers>
+        <li>PCauldron</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <WindDaisyDust>2</WindDaisyDust>
+      <PPotionYayo>1</PPotionYayo>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <chemical>GoJuice</chemical>
+        <addictiveness>0.08</addictiveness>
+        <minToleranceToAddict>0.03</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
+        <needLevelOffset>1</needLevelOffset>
+        <isCombatEnhancingDrug>true</isCombatEnhancingDrug>
+        <listOrder>200</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.18</min>
+          <max>0.35</max>
+        </overdoseSeverityOffset>
+        <largeOverdoseChance>0.01</largeOverdoseChance>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="MakeableDrugBase">
+    <defName>PPotionYayo</defName>
+    <label>Yayo potion</label>
+    <description>When drunk, it produces a rapid euphoric high, dramatically reduces the user's need for rest, and suppresses pain. Like all forms of psychite, it is addictive, though it is not as addictive as the cruder flake.</description>
+    <graphicData>
+      <texPath>Things/Item/PotionYayo</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>900</WorkToMake>
+      <MarketValue>21</MarketValue>
+      <Mass>0.05</Mass>
+    </statBases>
+    <thingCategories>
+      <li>
+        <!--Drugs-->PDrugPotion</li>
+    </thingCategories>
+    <techLevel>Medieval</techLevel>
+    <ingestible>
+      <foodType>Meal</foodType>
+      <joyKind>Chemical</joyKind>
+      <joy>0.80</joy>
+      <drugCategory>Hard</drugCategory>
+      <baseIngestTicks>240</baseIngestTicks>
+      <ingestEffect>DrinkPotion</ingestEffect>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <useEatingSpeedStat>false</useEatingSpeedStat>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>YayoHigh</hediffDef>
+          <severity>0.75</severity>
+          <toleranceChemical>Psychite</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_OffsetNeed">
+          <need>Rest</need>
+          <offset>0.4</offset>
+          <toleranceChemical>Psychite</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>PsychiteTolerance</hediffDef>
+          <severity>0.040</severity>
+          <divideByBodySize>true</divideByBodySize>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <researchPrerequisite>PDrug</researchPrerequisite>
+      <recipeUsers>
+        <li>PCauldron</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <PsychoidLeaves>8</PsychoidLeaves>
+      <PGlassBottle>1</PGlassBottle>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <chemical>Psychite</chemical>
+        <addictiveness>0.10</addictiveness>
+        <minToleranceToAddict>0.04</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
+        <needLevelOffset>1</needLevelOffset>
+        <isCombatEnhancingDrug>true</isCombatEnhancingDrug>
+        <listOrder>100</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.18</min>
+          <max>0.35</max>
+        </overdoseSeverityOffset>
+        <largeOverdoseChance>0.01</largeOverdoseChance>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="MakeableDrugBase">
+    <defName>PPotionFlake</defName>
+    <label>Flake potion</label>
+    <description>A flaky white liquid of psychite that can be drunk to produce a powerful euphoric state. While it is cheap to produce and extremely pleasurable to use, it is exceptionally addictive. Flake is known for destroying lives, communities, and entire societies.</description>
+    <graphicData>
+      <texPath>Things/Item/PotionFlake</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>900</WorkToMake>
+      <MarketValue>14</MarketValue>
+      <Mass>0.05</Mass>
+    </statBases>
+    <thingCategories>
+      <li>
+        <!--Drugs-->PDrugPotion</li>
+    </thingCategories>
+    <techLevel>Medieval</techLevel>
+    <ingestible>
+      <foodType>Meal</foodType>
+      <joyKind>Chemical</joyKind>
+      <joy>0.70</joy>
+      <baseIngestTicks>720</baseIngestTicks>
+      <nurseable>true</nurseable>
+      <drugCategory>Hard</drugCategory>
+      <ingestEffect>DrinkPotion</ingestEffect>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <useEatingSpeedStat>false</useEatingSpeedStat>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>FlakeHigh</hediffDef>
+          <severity>0.75</severity>
+          <toleranceChemical>Psychite</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_OffsetNeed">
+          <need>Rest</need>
+          <offset>0.2</offset>
+          <toleranceChemical>Psychite</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>PsychiteTolerance</hediffDef>
+          <severity>0.045</severity>
+          <divideByBodySize>true</divideByBodySize>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <researchPrerequisite>PDrug</researchPrerequisite>
+      <recipeUsers>
+        <li>PCauldron</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <PsychoidLeaves>4</PsychoidLeaves>
+      <PGlassBottle>1</PGlassBottle>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <chemical>Psychite</chemical>
+        <addictiveness>0.20</addictiveness>
+        <minToleranceToAddict>0.00</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.30</existingAddictionSeverityOffset>
+        <needLevelOffset>1</needLevelOffset>
+        <listOrder>110</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.18</min>
+          <max>0.35</max>
+        </overdoseSeverityOffset>
+        <largeOverdoseChance>0.015</largeOverdoseChance>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>
