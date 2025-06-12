@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Antiradiation potion -->
+  <PAntiradiation.label>Antiradiation potion</PAntiradiation.label>
+  <!-- EN: Brew a Antiradiation potion. -->
+  <PAntiradiation.description>Brew a Antiradiation potion.</PAntiradiation.description>
+  <!-- EN: Drug potion -->
+  <PDrug.label>Drug potion</PDrug.label>
+  <!-- EN: Brew a Drug potion. -->
+  <PDrug.description>Brew a Drug potion.</PDrug.description>
+  <!-- EN: Healing potion -->
+  <PHealer.label>Healing potion</PHealer.label>
+  <!-- EN: Brew the Healing potion. Extract the bone from a thrumbo at the butcher table. -->
+  <PHealer.description>Brew the Healing potion. Extract the bone from a thrumbo at the butcher table.</PHealer.description>
+  <!-- EN: Potion of immunization -->
+  <PImmunization.label>Potion of immunization</PImmunization.label>
+  <!-- EN: Brew the Potion of immunization. -->
+  <PImmunization.description>Brew the Potion of immunization.</PImmunization.description>
+  <!-- EN: Potion of knowledge -->
+  <PKnowledge.label>Potion of knowledge</PKnowledge.label>
+  <!-- EN: Brew the Potion of knowledge. -->
+  <PKnowledge.description>Brew the Potion of knowledge.</PKnowledge.description>
+  <!-- EN: Potion of life -->
+  <PLife.label>Potion of life</PLife.label>
+  <!-- EN: Brew the Potion of life. -->
+  <PLife.description>Brew the Potion of life.</PLife.description>
+  <!-- EN: Luciferium potion -->
+  <PLuciferium.label>Luciferium potion</PLuciferium.label>
+  <!-- EN: Brew the Luziferium potion. -->
+  <PLuciferium.description>Brew the Luziferium potion.</PLuciferium.description>
+  <!-- EN: Mental break potion -->
+  <PMentalBreak.label>Mental break potion</PMentalBreak.label>
+  <!-- EN: Brew a Mental break potion. -->
+  <PMentalBreak.description>Brew a Mental break potion.</PMentalBreak.description>
+  <!-- EN: Simple brewing -->
+  <PSimpleBrewing.label>Simple brewing</PSimpleBrewing.label>
+  <!-- EN: Build a cauldron and prepare the ingredients for the potions at the drug lab and make bottles at the smithy. Brew the Potion of saturation. -->
+  <PSimpleBrewing.description>Build a cauldron and prepare the ingredients for the potions at the drug lab and make bottles at the smithy. Brew the Potion of saturation.</PSimpleBrewing.description>
+  <!-- EN: Potion of skills -->
+  <PSkills.label>Potion of skills</PSkills.label>
+  <!-- EN: Brew the Potion of skills. -->
+  <PSkills.description>Brew the Potion of skills.</PSkills.description>
+  <!-- EN: Potion of stats -->
+  <PStatBoost.label>Potion of stats</PStatBoost.label>
+  <!-- EN: Brew the Potion of stats. -->
+  <PStatBoost.description>Brew the Potion of stats.</PStatBoost.description>
+</LanguageData>

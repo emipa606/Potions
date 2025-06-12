@@ -1,0 +1,44 @@
+ManifestFileVersion: 0
+CRC: 3433643179
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1260b0c0e8072371f264f8e87ab5bd04
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 1260b0c0e8072371f264f8e87ab5bd04
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.Potions/Textures/Things/Item/WindDaisyDust.png
+- Assets/Data/Mlie.Potions/Textures/Things/Item/PGlassBottle.png
+- Assets/Data/Mlie.Potions/Textures/Things/Item/PotionKnowledge.png
+- Assets/Data/Mlie.Potions/Textures/Things/Item/PotionLife.png
+- Assets/Data/Mlie.Potions/Textures/Things/Item/PotionImmunizationII.png
+- Assets/Data/Mlie.Potions/Textures/Things/Item/PotionSkills.png
+- Assets/Data/Mlie.Potions/Textures/Things/Item/UraniumDust.png
+- Assets/Data/Mlie.Potions/Textures/Things/Item/JadeDust.png
+- Assets/Data/Mlie.Potions/Textures/Things/Item/PotionAntiradiation.png
+- Assets/Data/Mlie.Potions/Textures/Things/Item/PotionStats.png
+- Assets/Data/Mlie.Potions/Textures/Things/Item/PotionHealer.png
+- Assets/Data/Mlie.Potions/Textures/Things/Item/PotionImmunizationI.png
+- Assets/Data/Mlie.Potions/Textures/Things/Item/PotionLuciferium.png
+- Assets/Data/Mlie.Potions/Textures/Things/Item/PotionSaturation.png
+- Assets/Data/Mlie.Potions/Textures/Things/Item/PotionGoJuice.png
+- Assets/Data/Mlie.Potions/Textures/Things/Item/PotionWakeUp.png
+- Assets/Data/Mlie.Potions/Textures/Things/Item/GoldDust.png
+- Assets/Data/Mlie.Potions/Textures/Things/Item/FoodBitBubble.png
+- Assets/Data/Mlie.Potions/Textures/Things/Item/PotionMentalBreak.png
+- Assets/Data/Mlie.Potions/Textures/Things/Item/PotionYayo.png
+- Assets/Data/Mlie.Potions/Textures/Things/Item/PotionFlake.png
+- Assets/Data/Mlie.Potions/Textures/Things/Building/Cauldron.png
+- Assets/Data/Mlie.Potions/Textures/Things/Item/WindDaisyBloom.png
+- Assets/Data/Mlie.Potions/Textures/Things/Item/PlasteelDust.png
+- Assets/Data/Mlie.Potions/Textures/Things/Building/WindDaisyPlant/WindDaisyPlant.png
+Dependencies: []

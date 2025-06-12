@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Blood filtration potion of stats -->
+  <PPotionBloodFiltration.label>Blood filtration potion of stats</PPotionBloodFiltration.label>
+  <!-- EN: A potion that increases the blood filtration for short time. -->
+  <PPotionBloodFiltration.description>A potion that increases the blood filtration for short time.</PPotionBloodFiltration.description>
+  <!-- EN: Drink {0} -->
+  <PPotionBloodFiltration.ingestible.ingestCommandString>Drink {0}</PPotionBloodFiltration.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <PPotionBloodFiltration.ingestible.ingestReportString>Drinking {0}.</PPotionBloodFiltration.ingestible.ingestReportString>
+  <!-- EN: Blood pumping potion of stats -->
+  <PPotionBloodPumping.label>Blood pumping potion of stats</PPotionBloodPumping.label>
+  <!-- EN: A potion that increases the Blood pumping for short time. -->
+  <PPotionBloodPumping.description>A potion that increases the Blood pumping for short time.</PPotionBloodPumping.description>
+  <!-- EN: Drink {0} -->
+  <PPotionBloodPumping.ingestible.ingestCommandString>Drink {0}</PPotionBloodPumping.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <PPotionBloodPumping.ingestible.ingestReportString>Drinking {0}.</PPotionBloodPumping.ingestible.ingestReportString>
+  <!-- EN: Breathing potion of stats -->
+  <PPotionBreathing.label>Breathing potion of stats</PPotionBreathing.label>
+  <!-- EN: A potion that increases the breathing for short time. -->
+  <PPotionBreathing.description>A potion that increases the breathing for short time.</PPotionBreathing.description>
+  <!-- EN: Drink {0} -->
+  <PPotionBreathing.ingestible.ingestCommandString>Drink {0}</PPotionBreathing.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <PPotionBreathing.ingestible.ingestReportString>Drinking {0}.</PPotionBreathing.ingestible.ingestReportString>
+  <!-- EN: Consciousness potion of stats -->
+  <PPotionConsciousness.label>Consciousness potion of stats</PPotionConsciousness.label>
+  <!-- EN: A potion that increases the consciousness for short time. -->
+  <PPotionConsciousness.description>A potion that increases the consciousness for short time.</PPotionConsciousness.description>
+  <!-- EN: Drink {0} -->
+  <PPotionConsciousness.ingestible.ingestCommandString>Drink {0}</PPotionConsciousness.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <PPotionConsciousness.ingestible.ingestReportString>Drinking {0}.</PPotionConsciousness.ingestible.ingestReportString>
+  <!-- EN: Hunger potion of stats -->
+  <PPotionHunger.label>Hunger potion of stats</PPotionHunger.label>
+  <!-- EN: A potion that increases the hunger for short time. Why would you use it? -->
+  <PPotionHunger.description>A potion that increases the hunger for short time. Why would you use it?</PPotionHunger.description>
+  <!-- EN: Drink {0} -->
+  <PPotionHunger.ingestible.ingestCommandString>Drink {0}</PPotionHunger.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <PPotionHunger.ingestible.ingestReportString>Drinking {0}.</PPotionHunger.ingestible.ingestReportString>
+  <!-- EN: Manipulation potion of stats -->
+  <PPotionManipulation.label>Manipulation potion of stats</PPotionManipulation.label>
+  <!-- EN: A potion that increases the Manipulation for short time. -->
+  <PPotionManipulation.description>A potion that increases the Manipulation for short time.</PPotionManipulation.description>
+  <!-- EN: Drink {0} -->
+  <PPotionManipulation.ingestible.ingestCommandString>Drink {0}</PPotionManipulation.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <PPotionManipulation.ingestible.ingestReportString>Drinking {0}.</PPotionManipulation.ingestible.ingestReportString>
+  <!-- EN: Metabolism potion of stats -->
+  <PPotionMetabolism.label>Metabolism potion of stats</PPotionMetabolism.label>
+  <!-- EN: A potion that increases the metabolism for short time. -->
+  <PPotionMetabolism.description>A potion that increases the metabolism for short time.</PPotionMetabolism.description>
+  <!-- EN: Drink {0} -->
+  <PPotionMetabolism.ingestible.ingestCommandString>Drink {0}</PPotionMetabolism.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <PPotionMetabolism.ingestible.ingestReportString>Drinking {0}.</PPotionMetabolism.ingestible.ingestReportString>
+  <!-- EN: Moving potion of stats -->
+  <PPotionMoving.label>Moving potion of stats</PPotionMoving.label>
+  <!-- EN: A potion that increases the moving for short time. -->
+  <PPotionMoving.description>A potion that increases the moving for short time.</PPotionMoving.description>
+  <!-- EN: Drink {0} -->
+  <PPotionMoving.ingestible.ingestCommandString>Drink {0}</PPotionMoving.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <PPotionMoving.ingestible.ingestReportString>Drinking {0}.</PPotionMoving.ingestible.ingestReportString>
+  <!-- EN: Pain potion of stats -->
+  <PPotionPain.label>Pain potion of stats</PPotionPain.label>
+  <!-- EN: A potion that decreases the pain for short time. -->
+  <PPotionPain.description>A potion that decreases the pain for short time.</PPotionPain.description>
+  <!-- EN: Drink {0} -->
+  <PPotionPain.ingestible.ingestCommandString>Drink {0}</PPotionPain.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <PPotionPain.ingestible.ingestReportString>Drinking {0}.</PPotionPain.ingestible.ingestReportString>
+  <!-- EN: Rest potion of stats -->
+  <PPotionRest.label>Rest potion of stats</PPotionRest.label>
+  <!-- EN: A potion that decreases the rest need for short time. -->
+  <PPotionRest.description>A potion that decreases the rest need for short time.</PPotionRest.description>
+  <!-- EN: Drink {0} -->
+  <PPotionRest.ingestible.ingestCommandString>Drink {0}</PPotionRest.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <PPotionRest.ingestible.ingestReportString>Drinking {0}.</PPotionRest.ingestible.ingestReportString>
+  <!-- EN: Sight potion of stats -->
+  <PPotionSight.label>Sight potion of stats</PPotionSight.label>
+  <!-- EN: A potion that increases the sight for short time. -->
+  <PPotionSight.description>A potion that increases the sight for short time.</PPotionSight.description>
+  <!-- EN: Drink {0} -->
+  <PPotionSight.ingestible.ingestCommandString>Drink {0}</PPotionSight.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <PPotionSight.ingestible.ingestReportString>Drinking {0}.</PPotionSight.ingestible.ingestReportString>
+</LanguageData>

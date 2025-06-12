@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: brew potions at cauldron -->
+  <DoBillsPBrewing.label>brew potions at cauldron</DoBillsPBrewing.label>
+  <!-- EN: brewing at -->
+  <DoBillsPBrewing.gerund>brewing at</DoBillsPBrewing.gerund>
+  <!-- EN: brew -->
+  <DoBillsPBrewing.verb>brew</DoBillsPBrewing.verb>
+</LanguageData>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: brew Berserk potion -->
+  <BrewingBerserk.label>brew Berserk potion</BrewingBerserk.label>
+  <!-- EN: Brew Berserk potion. -->
+  <BrewingBerserk.description>Brew Berserk potion.</BrewingBerserk.description>
+  <!-- EN: Brewing. -->
+  <BrewingBerserk.jobString>Brewing.</BrewingBerserk.jobString>
+  <!-- EN: brew Catatonia potion -->
+  <BrewingCatatonia.label>brew Catatonia potion</BrewingCatatonia.label>
+  <!-- EN: Brew Catatonia potion. -->
+  <BrewingCatatonia.description>Brew Catatonia potion.</BrewingCatatonia.description>
+  <!-- EN: Brewing. -->
+  <BrewingCatatonia.jobString>Brewing.</BrewingCatatonia.jobString>
+  <!-- EN: brew Fire starting spree potion -->
+  <BrewingFireStartingSpree.label>brew Fire starting spree potion</BrewingFireStartingSpree.label>
+  <!-- EN: Brew Fire starting spree potion. -->
+  <BrewingFireStartingSpree.description>Brew Fire starting spree potion.</BrewingFireStartingSpree.description>
+  <!-- EN: Brewing. -->
+  <BrewingFireStartingSpree.jobString>Brewing.</BrewingFireStartingSpree.jobString>
+  <!-- EN: brew Insulting spree potion -->
+  <BrewingInsultingSpree.label>brew Insulting spree potion</BrewingInsultingSpree.label>
+  <!-- EN: Brew Insulting spree potion. -->
+  <BrewingInsultingSpree.description>Brew Insulting spree potion.</BrewingInsultingSpree.description>
+  <!-- EN: Brewing. -->
+  <BrewingInsultingSpree.jobString>Brewing.</BrewingInsultingSpree.jobString>
+  <!-- EN: brew Sad wander potion -->
+  <BrewingSadWander.label>brew Sad wander potion</BrewingSadWander.label>
+  <!-- EN: Brew Sad wander potion. -->
+  <BrewingSadWander.description>Brew Sad wander potion.</BrewingSadWander.description>
+  <!-- EN: Brewing. -->
+  <BrewingSadWander.jobString>Brewing.</BrewingSadWander.jobString>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: high on Potion of saturation -->
+  <SaturationHigh.label>high on Potion of saturation</SaturationHigh.label>
+  <!-- EN: Strange substances in the bloodstream. -->
+  <SaturationHigh.description>Strange substances in the bloodstream.</SaturationHigh.description>
+  <!-- EN: a Potion of saturation high -->
+  <SaturationHigh.labelNoun>a Potion of saturation high</SaturationHigh.labelNoun>
+</LanguageData>

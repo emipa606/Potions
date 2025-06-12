@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: administer Healing potion -->
+  <PAdministerPotionHealer.label>administer Healing potion</PAdministerPotionHealer.label>
+  <!-- EN: Administer a Healing potion. -->
+  <PAdministerPotionHealer.description>Administer a Healing potion.</PAdministerPotionHealer.description>
+  <!-- EN: Administering Healing potion. -->
+  <PAdministerPotionHealer.jobString>Administering Healing potion.</PAdministerPotionHealer.jobString>
+</LanguageData>

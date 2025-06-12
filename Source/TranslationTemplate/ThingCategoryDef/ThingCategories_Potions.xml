@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: drug potion -->
+  <PDrugPotion.label>drug potion</PDrugPotion.label>
+  <!-- EN: ingredients -->
+  <PIngredients.label>ingredients</PIngredients.label>
+  <!-- EN: potions -->
+  <PPotions.label>potions</PPotions.label>
+  <!-- EN: potions of stats -->
+  <PPotionsStats.label>potions of stats</PPotionsStats.label>
+</LanguageData>

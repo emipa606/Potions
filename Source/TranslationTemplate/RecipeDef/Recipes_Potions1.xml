@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: brew Healing potion -->
+  <BrewingHealer.label>brew Healing potion</BrewingHealer.label>
+  <!-- EN: Brew Healing potion. -->
+  <BrewingHealer.description>Brew Healing potion.</BrewingHealer.description>
+  <!-- EN: Brewing. -->
+  <BrewingHealer.jobString>Brewing.</BrewingHealer.jobString>
+  <!-- EN: brew Potion of knowledge -->
+  <BrewingKnowledge.label>brew Potion of knowledge</BrewingKnowledge.label>
+  <!-- EN: Brew Potion of knowledge. -->
+  <BrewingKnowledge.description>Brew Potion of knowledge.</BrewingKnowledge.description>
+  <!-- EN: Brewing. -->
+  <BrewingKnowledge.jobString>Brewing.</BrewingKnowledge.jobString>
+  <!-- EN: brew Potion of life -->
+  <BrewingLife.label>brew Potion of life</BrewingLife.label>
+  <!-- EN: Brew Potion of life. -->
+  <BrewingLife.description>Brew Potion of life.</BrewingLife.description>
+  <!-- EN: Brewing. -->
+  <BrewingLife.jobString>Brewing.</BrewingLife.jobString>
+  <!-- EN: brew Luciferium potion -->
+  <BrewingLuciferium.label>brew Luciferium potion</BrewingLuciferium.label>
+  <!-- EN: Brew Luciferium potion. -->
+  <BrewingLuciferium.description>Brew Luciferium potion.</BrewingLuciferium.description>
+  <!-- EN: Brewing. -->
+  <BrewingLuciferium.jobString>Brewing.</BrewingLuciferium.jobString>
+  <!-- EN: brew Potion of saturation -->
+  <BrewingSaturation.label>brew Potion of saturation</BrewingSaturation.label>
+  <!-- EN: Brew Potion of saturation. -->
+  <BrewingSaturation.description>Brew Potion of saturation.</BrewingSaturation.description>
+  <!-- EN: Brewing. -->
+  <BrewingSaturation.jobString>Brewing.</BrewingSaturation.jobString>
+  <!-- EN: brew Potion of Animals skills -->
+  <BrewingSkills_Animals.label>brew Potion of Animals skills</BrewingSkills_Animals.label>
+  <!-- EN: Brew Potion of Animals skills. -->
+  <BrewingSkills_Animals.description>Brew Potion of Animals skills.</BrewingSkills_Animals.description>
+  <!-- EN: Brewing. -->
+  <BrewingSkills_Animals.jobString>Brewing.</BrewingSkills_Animals.jobString>
+  <!-- EN: brew Potion of Artistic skills -->
+  <BrewingSkills_Artistic.label>brew Potion of Artistic skills</BrewingSkills_Artistic.label>
+  <!-- EN: Brew Potion of Artistic skills. -->
+  <BrewingSkills_Artistic.description>Brew Potion of Artistic skills.</BrewingSkills_Artistic.description>
+  <!-- EN: Brewing. -->
+  <BrewingSkills_Artistic.jobString>Brewing.</BrewingSkills_Artistic.jobString>
+  <!-- EN: brew Potion of Construction skills -->
+  <BrewingSkills_Construction.label>brew Potion of Construction skills</BrewingSkills_Construction.label>
+  <!-- EN: Brew Potion of Construction skills. -->
+  <BrewingSkills_Construction.description>Brew Potion of Construction skills.</BrewingSkills_Construction.description>
+  <!-- EN: Brewing. -->
+  <BrewingSkills_Construction.jobString>Brewing.</BrewingSkills_Construction.jobString>
+  <!-- EN: brew Potion of Cooking skills -->
+  <BrewingSkills_Cooking.label>brew Potion of Cooking skills</BrewingSkills_Cooking.label>
+  <!-- EN: Brew Potion of Cooking skills. -->
+  <BrewingSkills_Cooking.description>Brew Potion of Cooking skills.</BrewingSkills_Cooking.description>
+  <!-- EN: Brewing. -->
+  <BrewingSkills_Cooking.jobString>Brewing.</BrewingSkills_Cooking.jobString>
+  <!-- EN: brew Potion of Crafting skills -->
+  <BrewingSkills_Crafting.label>brew Potion of Crafting skills</BrewingSkills_Crafting.label>
+  <!-- EN: Brew Potion of Crafting skills. -->
+  <BrewingSkills_Crafting.description>Brew Potion of Crafting skills.</BrewingSkills_Crafting.description>
+  <!-- EN: Brewing. -->
+  <BrewingSkills_Crafting.jobString>Brewing.</BrewingSkills_Crafting.jobString>
+  <!-- EN: brew Potion of Intellectual skills -->
+  <BrewingSkills_Intellectual.label>brew Potion of Intellectual skills</BrewingSkills_Intellectual.label>
+  <!-- EN: Brew Potion of Intellectual skills. -->
+  <BrewingSkills_Intellectual.description>Brew Potion of Intellectual skills.</BrewingSkills_Intellectual.description>
+  <!-- EN: Brewing. -->
+  <BrewingSkills_Intellectual.jobString>Brewing.</BrewingSkills_Intellectual.jobString>
+  <!-- EN: brew Potion of Medicine skills -->
+  <BrewingSkills_Medicine.label>brew Potion of Medicine skills</BrewingSkills_Medicine.label>
+  <!-- EN: Brew Potion of Medicine skills. -->
+  <BrewingSkills_Medicine.description>Brew Potion of Medicine skills.</BrewingSkills_Medicine.description>
+  <!-- EN: Brewing. -->
+  <BrewingSkills_Medicine.jobString>Brewing.</BrewingSkills_Medicine.jobString>
+  <!-- EN: brew Potion of Melee skills -->
+  <BrewingSkills_Melee.label>brew Potion of Melee skills</BrewingSkills_Melee.label>
+  <!-- EN: Brew Potion of Melee skills. -->
+  <BrewingSkills_Melee.description>Brew Potion of Melee skills.</BrewingSkills_Melee.description>
+  <!-- EN: Brewing. -->
+  <BrewingSkills_Melee.jobString>Brewing.</BrewingSkills_Melee.jobString>
+  <!-- EN: brew Potion of Mining skills -->
+  <BrewingSkills_Mining.label>brew Potion of Mining skills</BrewingSkills_Mining.label>
+  <!-- EN: Brew Potion of Mining skills. -->
+  <BrewingSkills_Mining.description>Brew Potion of Mining skills.</BrewingSkills_Mining.description>
+  <!-- EN: Brewing. -->
+  <BrewingSkills_Mining.jobString>Brewing.</BrewingSkills_Mining.jobString>
+  <!-- EN: brew Potion of Plants skills -->
+  <BrewingSkills_Plants.label>brew Potion of Plants skills</BrewingSkills_Plants.label>
+  <!-- EN: Brew Potion of Plants skills. -->
+  <BrewingSkills_Plants.description>Brew Potion of Plants skills.</BrewingSkills_Plants.description>
+  <!-- EN: Brewing. -->
+  <BrewingSkills_Plants.jobString>Brewing.</BrewingSkills_Plants.jobString>
+  <!-- EN: brew Potion of Shooting skills -->
+  <BrewingSkills_Shooting.label>brew Potion of Shooting skills</BrewingSkills_Shooting.label>
+  <!-- EN: Brew Potion of Shooting skills. -->
+  <BrewingSkills_Shooting.description>Brew Potion of Shooting skills.</BrewingSkills_Shooting.description>
+  <!-- EN: Brewing. -->
+  <BrewingSkills_Shooting.jobString>Brewing.</BrewingSkills_Shooting.jobString>
+  <!-- EN: brew Potion of Social skills -->
+  <BrewingSkills_Social.label>brew Potion of Social skills</BrewingSkills_Social.label>
+  <!-- EN: Brew Potion of Social skills. -->
+  <BrewingSkills_Social.description>Brew Potion of Social skills.</BrewingSkills_Social.description>
+  <!-- EN: Brewing. -->
+  <BrewingSkills_Social.jobString>Brewing.</BrewingSkills_Social.jobString>
+</LanguageData>

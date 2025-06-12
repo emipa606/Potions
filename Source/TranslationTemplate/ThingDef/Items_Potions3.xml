@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Antiradiation potion -->
+  <PPotionAntiradiation.label>Antiradiation potion</PPotionAntiradiation.label>
+  <!-- EN: A potion for preventing radiation before they take hold. Blocks toxic buildup. Must be taken every five days to remain effective. -->
+  <PPotionAntiradiation.description>A potion for preventing radiation before they take hold. Blocks toxic buildup. Must be taken every five days to remain effective.</PPotionAntiradiation.description>
+  <!-- EN: Drink {0} -->
+  <PPotionAntiradiation.ingestible.ingestCommandString>Drink {0}</PPotionAntiradiation.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <PPotionAntiradiation.ingestible.ingestReportString>Drinking {0}.</PPotionAntiradiation.ingestible.ingestReportString>
+  <!-- EN: Berserk potion -->
+  <PPotionBerserk.label>Berserk potion</PPotionBerserk.label>
+  <!-- EN: A potion that leads to berserk. -->
+  <PPotionBerserk.description>A potion that leads to berserk.</PPotionBerserk.description>
+  <!-- EN: Drink {0} -->
+  <PPotionBerserk.ingestible.ingestCommandString>Drink {0}</PPotionBerserk.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <PPotionBerserk.ingestible.ingestReportString>Drinking {0}.</PPotionBerserk.ingestible.ingestReportString>
+  <!-- EN: Catatonia potion -->
+  <PPotionCatatonia.label>Catatonia potion</PPotionCatatonia.label>
+  <!-- EN: A potion that leads to catatonia. -->
+  <PPotionCatatonia.description>A potion that leads to catatonia.</PPotionCatatonia.description>
+  <!-- EN: Drink {0} -->
+  <PPotionCatatonia.ingestible.ingestCommandString>Drink {0}</PPotionCatatonia.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <PPotionCatatonia.ingestible.ingestReportString>Drinking {0}.</PPotionCatatonia.ingestible.ingestReportString>
+  <!-- EN: Fire starting spree potion -->
+  <PPotionFireStartingSpree.label>Fire starting spree potion</PPotionFireStartingSpree.label>
+  <!-- EN: A potion that leads to fire starting spree. -->
+  <PPotionFireStartingSpree.description>A potion that leads to fire starting spree.</PPotionFireStartingSpree.description>
+  <!-- EN: Drink {0} -->
+  <PPotionFireStartingSpree.ingestible.ingestCommandString>Drink {0}</PPotionFireStartingSpree.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <PPotionFireStartingSpree.ingestible.ingestReportString>Drinking {0}.</PPotionFireStartingSpree.ingestible.ingestReportString>
+  <!-- EN: Potion of immunization -->
+  <PPotionImmunizationI.label>Potion of immunization</PPotionImmunizationI.label>
+  <!-- EN: A potion for preventing infections before they take hold. Blocks malaria, sleeping sickness, plague. Must be taken every five days to remain effective.\n\nThis potion only prevents new infections. It does not cure existing infections - even those that are not yet discovered. -->
+  <PPotionImmunizationI.description>A potion for preventing infections before they take hold. Blocks malaria, sleeping sickness, plague. Must be taken every five days to remain effective.
+
+This potion only prevents new infections. It does not cure existing infections - even those that are not yet discovered.</PPotionImmunizationI.description>
+  <!-- EN: Drink {0} -->
+  <PPotionImmunizationI.ingestible.ingestCommandString>Drink {0}</PPotionImmunizationI.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <PPotionImmunizationI.ingestible.ingestReportString>Drinking {0}.</PPotionImmunizationI.ingestible.ingestReportString>
+  <!-- EN: Potion of adv. immunization -->
+  <PPotionImmunizationII.label>Potion of adv. immunization</PPotionImmunizationII.label>
+  <!-- EN: A potion for preventing infections before they take hold. Blocks all vanilla diseases. Must be taken every five days to remain effective.\n\nThis potion only prevents new infections. It does not cure existing infections - even those that are not yet discovered. -->
+  <PPotionImmunizationII.description>A potion for preventing infections before they take hold. Blocks all vanilla diseases. Must be taken every five days to remain effective.
+
+This potion only prevents new infections. It does not cure existing infections - even those that are not yet discovered.</PPotionImmunizationII.description>
+  <!-- EN: Drink {0} -->
+  <PPotionImmunizationII.ingestible.ingestCommandString>Drink {0}</PPotionImmunizationII.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <PPotionImmunizationII.ingestible.ingestReportString>Drinking {0}.</PPotionImmunizationII.ingestible.ingestReportString>
+  <!-- EN: Insulting spree potion -->
+  <PPotionInsultingSpree.label>Insulting spree potion</PPotionInsultingSpree.label>
+  <!-- EN: A potion that leads to insulting spree. -->
+  <PPotionInsultingSpree.description>A potion that leads to insulting spree.</PPotionInsultingSpree.description>
+  <!-- EN: Drink {0} -->
+  <PPotionInsultingSpree.ingestible.ingestCommandString>Drink {0}</PPotionInsultingSpree.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <PPotionInsultingSpree.ingestible.ingestReportString>Drinking {0}.</PPotionInsultingSpree.ingestible.ingestReportString>
+  <!-- EN: Sad wander potion -->
+  <PPotionSadWander.label>Sad wander potion</PPotionSadWander.label>
+  <!-- EN: A potion that leads to sad wander. -->
+  <PPotionSadWander.description>A potion that leads to sad wander.</PPotionSadWander.description>
+  <!-- EN: Drink {0} -->
+  <PPotionSadWander.ingestible.ingestCommandString>Drink {0}</PPotionSadWander.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <PPotionSadWander.ingestible.ingestReportString>Drinking {0}.</PPotionSadWander.ingestible.ingestReportString>
+</LanguageData>

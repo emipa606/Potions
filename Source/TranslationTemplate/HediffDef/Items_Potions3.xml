@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: high on Antiradiation potion -->
+  <AntiradiationHigh.label>high on Antiradiation potion</AntiradiationHigh.label>
+  <!-- EN: Strange substances in the bloodstream. -->
+  <AntiradiationHigh.description>Strange substances in the bloodstream.</AntiradiationHigh.description>
+  <!-- EN: high on Berser potion -->
+  <BerserkHigh.label>high on Berser potion</BerserkHigh.label>
+  <!-- EN: Strange substances in the bloodstream. -->
+  <BerserkHigh.description>Strange substances in the bloodstream.</BerserkHigh.description>
+  <!-- EN: a Berser potion high -->
+  <BerserkHigh.labelNoun>a Berser potion high</BerserkHigh.labelNoun>
+  <!-- EN: high on Catatonia potion -->
+  <CatatoniaHigh.label>high on Catatonia potion</CatatoniaHigh.label>
+  <!-- EN: Strange substances in the bloodstream. -->
+  <CatatoniaHigh.description>Strange substances in the bloodstream.</CatatoniaHigh.description>
+  <!-- EN: a Catatonia potion high -->
+  <CatatoniaHigh.labelNoun>a Catatonia potion high</CatatoniaHigh.labelNoun>
+  <!-- EN: high on Fire starting spree potion -->
+  <FireStartingSpreeHigh.label>high on Fire starting spree potion</FireStartingSpreeHigh.label>
+  <!-- EN: Strange substances in the bloodstream. -->
+  <FireStartingSpreeHigh.description>Strange substances in the bloodstream.</FireStartingSpreeHigh.description>
+  <!-- EN: a Fire starting spree potion high -->
+  <FireStartingSpreeHigh.labelNoun>a Fire starting spree potion high</FireStartingSpreeHigh.labelNoun>
+  <!-- EN: high on Potion of immunization -->
+  <ImmunizationIHigh.label>high on Potion of immunization</ImmunizationIHigh.label>
+  <!-- EN: Strange substances in the bloodstream. -->
+  <ImmunizationIHigh.description>Strange substances in the bloodstream.</ImmunizationIHigh.description>
+  <!-- EN: high on Potion of adv. immunization -->
+  <ImmunizationIIHigh.label>high on Potion of adv. immunization</ImmunizationIIHigh.label>
+  <!-- EN: Strange substances in the bloodstream. -->
+  <ImmunizationIIHigh.description>Strange substances in the bloodstream.</ImmunizationIIHigh.description>
+  <!-- EN: high on Insulting spree potion -->
+  <InsultingSpreeHigh.label>high on Insulting spree potion</InsultingSpreeHigh.label>
+  <!-- EN: Strange substances in the bloodstream. -->
+  <InsultingSpreeHigh.description>Strange substances in the bloodstream.</InsultingSpreeHigh.description>
+  <!-- EN: an Insulting spree potion high -->
+  <InsultingSpreeHigh.labelNoun>an Insulting spree potion high</InsultingSpreeHigh.labelNoun>
+  <!-- EN: high on Sad wander potion -->
+  <SadWanderHigh.label>high on Sad wander potion</SadWanderHigh.label>
+  <!-- EN: Strange substances in the bloodstream. -->
+  <SadWanderHigh.description>Strange substances in the bloodstream.</SadWanderHigh.description>
+  <!-- EN: a Sad wander potion high -->
+  <SadWanderHigh.labelNoun>a Sad wander potion high</SadWanderHigh.labelNoun>
+</LanguageData>

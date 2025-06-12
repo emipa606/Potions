@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: smelt stone chunks into bottles -->
+  <BottleCrafting.label>smelt stone chunks into bottles</BottleCrafting.label>
+  <!-- EN: Turn the stone chunks into bottles used for potion brewing. -->
+  <BottleCrafting.description>Turn the stone chunks into bottles used for potion brewing.</BottleCrafting.description>
+  <!-- EN: Smelting stone chunks into bottles. -->
+  <BottleCrafting.jobString>Smelting stone chunks into bottles.</BottleCrafting.jobString>
+  <!-- EN: turn gold into dust -->
+  <DustGoldMaking.label>turn gold into dust</DustGoldMaking.label>
+  <!-- EN: Turn gold into dust used for potion brewing. -->
+  <DustGoldMaking.description>Turn gold into dust used for potion brewing.</DustGoldMaking.description>
+  <!-- EN: Making dust. -->
+  <DustGoldMaking.jobString>Making dust.</DustGoldMaking.jobString>
+  <!-- EN: turn jade into dust -->
+  <DustJadeMaking.label>turn jade into dust</DustJadeMaking.label>
+  <!-- EN: Turn jade into dust used for potion brewing. -->
+  <DustJadeMaking.description>Turn jade into dust used for potion brewing.</DustJadeMaking.description>
+  <!-- EN: Making dust. -->
+  <DustJadeMaking.jobString>Making dust.</DustJadeMaking.jobString>
+  <!-- EN: turn plasteel into dust -->
+  <DustPlasteelMaking.label>turn plasteel into dust</DustPlasteelMaking.label>
+  <!-- EN: Turn plasteel into dust used for potion brewing. -->
+  <DustPlasteelMaking.description>Turn plasteel into dust used for potion brewing.</DustPlasteelMaking.description>
+  <!-- EN: Making dust. -->
+  <DustPlasteelMaking.jobString>Making dust.</DustPlasteelMaking.jobString>
+  <!-- EN: turn uranium into dust -->
+  <DustUraniumMaking.label>turn uranium into dust</DustUraniumMaking.label>
+  <!-- EN: Turn uranium into dust used for potion brewing. -->
+  <DustUraniumMaking.description>Turn uranium into dust used for potion brewing.</DustUraniumMaking.description>
+  <!-- EN: Making dust. -->
+  <DustUraniumMaking.jobString>Making dust.</DustUraniumMaking.jobString>
+  <!-- EN: turn wind daisy blooms into dust -->
+  <DustWindDaisyMaking.label>turn wind daisy blooms into dust</DustWindDaisyMaking.label>
+  <!-- EN: Turn wind daisy blooms into dust used for potion brewing. -->
+  <DustWindDaisyMaking.description>Turn wind daisy blooms into dust used for potion brewing.</DustWindDaisyMaking.description>
+  <!-- EN: Making dust. -->
+  <DustWindDaisyMaking.jobString>Making dust.</DustWindDaisyMaking.jobString>
+</LanguageData>

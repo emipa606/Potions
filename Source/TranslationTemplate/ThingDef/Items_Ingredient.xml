@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: gold dust -->
+  <GoldDust.label>gold dust</GoldDust.label>
+  <!-- EN: The most seductive metal of them all. Gold dust is used as a ingredient in potion brewing. Not very strong. -->
+  <GoldDust.description>The most seductive metal of them all. Gold dust is used as a ingredient in potion brewing. Not very strong.</GoldDust.description>
+  <!-- EN: jade dust -->
+  <JadeDust.label>jade dust</JadeDust.label>
+  <!-- EN: A beautiful, green dust. Jade dust is used as a ingredient in potion brewing. Not very strong. -->
+  <JadeDust.description>A beautiful, green dust. Jade dust is used as a ingredient in potion brewing. Not very strong.</JadeDust.description>
+  <!-- EN: glass bottle -->
+  <PGlassBottle.label>glass bottle</PGlassBottle.label>
+  <!-- EN: A simple glass bottle used for brewing potions. -->
+  <PGlassBottle.description>A simple glass bottle used for brewing potions.</PGlassBottle.description>
+  <!-- EN: plasteel dust -->
+  <PlasteelDust.label>plasteel dust</PlasteelDust.label>
+  <!-- EN: Advanced spacer tech material brought to medieval times. Plasteel dust is used as a ingredient in potion brewing. Not very strong. -->
+  <PlasteelDust.description>Advanced spacer tech material brought to medieval times. Plasteel dust is used as a ingredient in potion brewing. Not very strong.</PlasteelDust.description>
+  <!-- EN: uranium dust -->
+  <UraniumDust.label>uranium dust</UraniumDust.label>
+  <!-- EN: A dark dust. Uranium dust is used as a ingredient in potion brewing. Not very strong. -->
+  <UraniumDust.description>A dark dust. Uranium dust is used as a ingredient in potion brewing. Not very strong.</UraniumDust.description>
+  <!-- EN: wind daisy bloom -->
+  <WindDaisyBloom.label>wind daisy bloom</WindDaisyBloom.label>
+  <!-- EN: Wind daisy bloom. A beautiful and magical plant used by the mages from long forgotten worlds. -->
+  <WindDaisyBloom.description>Wind daisy bloom. A beautiful and magical plant used by the mages from long forgotten worlds.</WindDaisyBloom.description>
+  <!-- EN: wind daisy dust -->
+  <WindDaisyDust.label>wind daisy dust</WindDaisyDust.label>
+  <!-- EN: Wind daisy dust is used as a ingredient in potion brewing. -->
+  <WindDaisyDust.description>Wind daisy dust is used as a ingredient in potion brewing.</WindDaisyDust.description>
+</LanguageData>

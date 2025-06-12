@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: drug production -->
+  <DrugProduction.label>drug production</DrugProduction.label>
+  <!-- EN: Build a drug lab for basic drug synthesis. Further research is required to make specific drugs. -->
+  <DrugProduction.description>Build a drug lab for basic drug synthesis. Further research is required to make specific drugs.</DrugProduction.description>
+</LanguageData>
